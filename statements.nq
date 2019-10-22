@@ -5,17 +5,7 @@
 <http://ontology.artsdata.ca/PerformanceSeries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
 <http://www.wikidata.org/entity/Q7366> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/Book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/TheatreReview> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/Publication> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/RadioBroadcast> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/NewspaperArticle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/RadioProgramme> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
 <http://www.wikidata.org/entity/Q132241> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
-<http://schema.org/EventSeries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/Periodical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/PressRelease> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
-<http://schema.org/Play> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
 <http://www.wikidata.org/entity/Q25938183> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
 <http://www.wikidata.org/entity/Q618779> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
@@ -1878,7 +1868,7 @@
 <http://ldfi.ca/data/photo1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/video1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/photo2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/book1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/Book> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/book1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Book> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/photo3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/photo4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/photo5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://ldfi.artsdata.ca/Work> .
@@ -1897,29 +1887,29 @@
 <http://ldfi.ca/data/photo18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/video2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/video3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/review1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/TheatreReview> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/review2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/TheatreReview> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/review3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/TheatreReview> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/review4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/TheatreReview> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/review5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/TheatreReview> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/review6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/TheatreReview> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/review7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/TheatreReview> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/review8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/TheatreReview> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/review9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/TheatreReview> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/review10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/TheatreReview> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/review11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/TheatreReview> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/periodical1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/Periodical> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/periodical2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/Periodical> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/periodical3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/Periodical> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/periodical4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/Periodical> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/periodical5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/Periodical> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/periodical6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/Periodical> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/periodical7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/Periodical> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/broadcast1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/RadioBroadcast> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/article1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/NewspaperArticle> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/article2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/NewspaperArticle> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/periodical8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/Periodical> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/programme1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/RadioProgramme> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/review1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Review> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/review2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Review> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/review3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Review> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/review4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Review> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/review5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Review> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/review6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Review> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/review7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Review> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/review8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Review> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/review9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Review> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/review10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Review> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/review11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Review> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/periodical1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/periodical2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/periodical3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/periodical4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/periodical5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/periodical6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/periodical7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/broadcast1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/RadioEpisode> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/article1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/NewsArticle> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/article2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/NewsArticle> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/periodical8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Periodical> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/programme1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/RadioSeries> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/video4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/photo24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/photo25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://ldfi.artsdata.ca/Work> .
@@ -1944,7 +1934,7 @@
 <http://ldfi.ca/data/photo43> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/photo44> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/photo45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://ldfi.artsdata.ca/Work> .
-<http://ldfi.ca/data/pressrelease1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/PressRelease> <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/pressrelease1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Article> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/photo46> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/photo47> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/photo48> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://ldfi.artsdata.ca/Work> .
@@ -2416,7 +2406,6 @@
 <http://www.wikidata.org/entity/Q7194> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q56061> <http://wikidata.org/imported-territories> .
 <http://www.wikidata.org/entity/Q1113384> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q56061> <http://wikidata.org/imported-territories> .
 <http://www.wikidata.org/entity/Q6904> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q56061> <http://wikidata.org/imported-territories> .
-<http://ldfi.ca/data/person173> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Person> <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/still2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ImageObject> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/still1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/ImageObject> <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/rapper> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> <http://ldfi.artsdata.ca/Occupation> .
@@ -2436,8 +2425,14 @@
 <http://ldfi.ca/data/musician> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> <http://ldfi.artsdata.ca/Occupation> .
 <http://ldfi.ca/data/stagedirector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Occupation> <http://ldfi.artsdata.ca/Occupation> .
 <http://ldfi.ca/data/venue34> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/EventVenue> <http://ldfi.artsdata.ca/Venue> .
-_:node3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> <http://ldfi.artsdata.ca/PAProduction> .
-_:node4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> <http://ldfi.artsdata.ca/PAProduction> .
+<http://ontology.artsdata.ca/EndeavourPerformingArts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
+<http://ldfi.ca/data/event83> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/Performance> <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/production28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/PerformingArtsProduction> <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/img72> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource> <http://ldfi.artsdata.ca/MediaResource> .
+<http://ldfi.ca/data/relaxedperformance1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://ontology.artsdata.ca/RelaxedPerformance> <http://ldfi.artsdata.ca/Event> .
+<http://ontology.artsdata.ca/RelaxedPerformance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
+<http://ontology.artsdata.ca/EventAccessibility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
+<http://ldfi.ca/data/photo70> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Photograph> <http://ldfi.artsdata.ca/Work> .
 _:node5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> <http://ldfi.artsdata.ca/PAProduction> .
 _:node6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> <http://ldfi.artsdata.ca/PAProduction> .
 _:node7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> <http://ldfi.artsdata.ca/PAProduction> .
@@ -2480,9 +2475,10 @@ _:node43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Ro
 _:node44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> <http://ldfi.artsdata.ca/PAProduction> .
 _:node45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> <http://ldfi.artsdata.ca/PAProduction> .
 _:node46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> <http://ldfi.artsdata.ca/PAProduction> .
-_:node47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> <http://ldfi.artsdata.ca/Event> .
-_:node48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> <http://ldfi.artsdata.ca/Event> .
-<http://ontology.artsdata.ca/EndeavourPerformingArts> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> <http://ldfi.artsdata.ca/Class> .
+_:node47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> <http://ldfi.artsdata.ca/PAProduction> .
+_:node48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> <http://ldfi.artsdata.ca/PAProduction> .
+_:node49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> <http://ldfi.artsdata.ca/Event> .
+_:node50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Role> <http://ldfi.artsdata.ca/Event> .
 <http://schema.org/acceptedAnswer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/suggestedAnswer> <http://schema.org> .
 <http://schema.org/accountId> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/identifier> <http://schema.org> .
 <http://schema.org/actionOption> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://schema.org/object> <http://schema.org> .
@@ -2600,15 +2596,7 @@ _:node48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Ro
 <http://ontology.artsdata.ca/PerformanceSeries> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.artsdata.ca/EndeavourPerformingArts> <http://ldfi.artsdata.ca/Class> .
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> <http://ldfi.artsdata.ca/Class> .
 <http://www.wikidata.org/entity/Q7366> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/Book> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/TheatreReview> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/Publication> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/RadioBroadcast> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/NewspaperArticle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/RadioProgramme> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> <http://ldfi.artsdata.ca/Class> .
 <http://www.wikidata.org/entity/Q132241> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/EventSeries> <http://ldfi.artsdata.ca/Class> .
-<http://schema.org/EventSeries> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/Event> <http://ldfi.artsdata.ca/Class> .
-<http://schema.org/Play> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Work> <http://ldfi.artsdata.ca/Class> .
 <http://www.wikidata.org/entity/Q3331189> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Endeavour> <http://ldfi.artsdata.ca/Class> .
 <http://www.wikidata.org/entity/Q95074> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.wikidata.org/entity/Q3375722> <http://ldfi.artsdata.ca/Class> .
 <http://schema.org/AMRadioChannel> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/RadioChannel> <http://schema.org> .
@@ -3257,6 +3245,7 @@ _:node48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Ro
 <http://schema.org/Zoo> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://schema.org/CivicStructure> <http://schema.org> .
 <http://ontology.artsdata.ca/EndeavourPerformingArts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Endeavour> <http://ldfi.artsdata.ca/Class> .
 <http://ontology.artsdata.ca/EndeavourPerformingArts> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/vocab/frbr/core#Concept> <http://ldfi.artsdata.ca/Class> .
+<http://ontology.artsdata.ca/RelaxedPerformance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://ontology.artsdata.ca/EventAccessibility> <http://ldfi.artsdata.ca/Class> .
 <http://schema.org/identifier> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/identifier> <http://schema.org> .
 <http://schema.org/temporalCoverage> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/temporal> <http://schema.org> .
 <http://schema.org/description> <http://www.w3.org/2002/07/owl#equivalentProperty> <http://purl.org/dc/terms/description> <http://schema.org> .
@@ -4939,6 +4928,7 @@ _:node48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Ro
 <http://schema.org/yearlyRevenue> <http://www.w3.org/2000/01/rdf-schema#comment> "The size of the business in annual revenue." <http://schema.org> .
 <http://schema.org/yearsInOperation> <http://www.w3.org/2000/01/rdf-schema#comment> "The age of the business." <http://schema.org> .
 <http://ontology.artsdata.ca/EndeavourPerformingArts> <http://www.w3.org/2000/01/rdf-schema#comment> "Any of the FRBR group 1 entities applied to the performing arts (Performance Work, Performance Plan, Performing Arts Production, Performance)" <http://ldfi.artsdata.ca/Class> .
+<http://ontology.artsdata.ca/RelaxedPerformance> <http://www.w3.org/2000/01/rdf-schema#comment> "Relaxed Performances are designed to welcome audience members who will benefit from a more relaxed sensory experience and casual environment, including (but not limited to) patrons with an Autism Spectrum condition, a sensory processing disorder, or a learning disability. There is a more relaxed approach to noise and movement within the theatre space; some minor production changes may be made to reduce the intensity of light, sound and other startling effects. These shows are for anyone. Many other people may choose to attend a relaxed performance, either as an access requirement or because they like the inclusive environment." <http://ldfi.artsdata.ca/Class> .
 <http://www.w3.org/2000/01/rdf-schema#label> <http://www.w3.org/2000/01/rdf-schema#label> "label" <http://ldfi.artsdata.ca/Property> .
 <http://ontology.artsdata.ca/PerformingArtsProduction> <http://www.w3.org/2000/01/rdf-schema#label> "Performing Arts Production" <http://ldfi.artsdata.ca/Class> .
 <http://ontology.artsdata.ca/PerformingArtsProductionSeries> <http://www.w3.org/2000/01/rdf-schema#label> "Series of Performing Arts Productions" <http://ldfi.artsdata.ca/Class> .
@@ -4947,17 +4937,7 @@ _:node48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Ro
 <http://ontology.artsdata.ca/PerformanceSeries> <http://www.w3.org/2000/01/rdf-schema#label> "Series of Performances" <http://ldfi.artsdata.ca/Class> .
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#EditorialObject> <http://www.w3.org/2000/01/rdf-schema#label> "Editorial Object" <http://ldfi.artsdata.ca/Class> .
 <http://www.wikidata.org/entity/Q7366> <http://www.w3.org/2000/01/rdf-schema#label> "Song" <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/Book> <http://www.w3.org/2000/01/rdf-schema#label> "Book" <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/TheatreReview> <http://www.w3.org/2000/01/rdf-schema#label> "Theatre Review" <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/Publication> <http://www.w3.org/2000/01/rdf-schema#label> "Publication" <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/RadioBroadcast> <http://www.w3.org/2000/01/rdf-schema#label> "Radio Broadcast" <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/NewspaperArticle> <http://www.w3.org/2000/01/rdf-schema#label> "Newspaper Article" <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/RadioProgramme> <http://www.w3.org/2000/01/rdf-schema#label> "Radio Programme" <http://ldfi.artsdata.ca/Class> .
 <http://www.wikidata.org/entity/Q132241> <http://www.w3.org/2000/01/rdf-schema#label> "Festival (Series)" <http://ldfi.artsdata.ca/Class> .
-<http://schema.org/EventSeries> <http://www.w3.org/2000/01/rdf-schema#label> "Event Series" <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/Periodical> <http://www.w3.org/2000/01/rdf-schema#label> "Periodical" <http://ldfi.artsdata.ca/Class> .
-<http://ontology.artsdata.ca/PressRelease> <http://www.w3.org/2000/01/rdf-schema#label> "Press Release" <http://ldfi.artsdata.ca/Class> .
-<http://schema.org/Play> <http://www.w3.org/2000/01/rdf-schema#label> "Play" <http://ldfi.artsdata.ca/Class> .
 <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#MediaResource> <http://www.w3.org/2000/01/rdf-schema#label> "Media Resource" <http://ldfi.artsdata.ca/Class> .
 <http://www.wikidata.org/entity/Q25938183> <http://www.w3.org/2000/01/rdf-schema#label> "Season" <http://ldfi.artsdata.ca/Class> .
 <http://www.wikidata.org/entity/Q618779> <http://www.w3.org/2000/01/rdf-schema#label> "Award" <http://ldfi.artsdata.ca/Class> .
@@ -7190,7 +7170,24 @@ _:node48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Ro
 <http://www.wikidata.org/entity/Q7194> <http://www.w3.org/2000/01/rdf-schema#label> "Girona Province"@en <http://wikidata.org/imported-territories> .
 <http://www.wikidata.org/entity/Q1113384> <http://www.w3.org/2000/01/rdf-schema#label> "Comarques Gironines"@en <http://wikidata.org/imported-territories> .
 <http://www.wikidata.org/entity/Q6904> <http://www.w3.org/2000/01/rdf-schema#label> "Alt Empordà"@en <http://wikidata.org/imported-territories> .
-<http://ldfi.ca/data/person173> <http://www.w3.org/2000/01/rdf-schema#label> "Gregory Saumier-Finch" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/rapper> <http://www.w3.org/2000/01/rdf-schema#label> "rapper" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/spokenword> <http://www.w3.org/2000/01/rdf-schema#label> "spoken word artist" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/actor> <http://www.w3.org/2000/01/rdf-schema#label> "actor" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/playwright> <http://www.w3.org/2000/01/rdf-schema#label> "playwright" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/songwriter> <http://www.w3.org/2000/01/rdf-schema#label> "songwriter" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/writer> <http://www.w3.org/2000/01/rdf-schema#label> "writer" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/performanceartist> <http://www.w3.org/2000/01/rdf-schema#label> "performance artist" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/filmmaker> <http://www.w3.org/2000/01/rdf-schema#label> "filmmaker" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/artist> <http://www.w3.org/2000/01/rdf-schema#label> "artist" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/canadianwriter> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian writer" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/dancer> <http://www.w3.org/2000/01/rdf-schema#label> "dancer" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/acrobat> <http://www.w3.org/2000/01/rdf-schema#label> "acrobat" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/singer> <http://www.w3.org/2000/01/rdf-schema#label> "singer" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/conductor> <http://www.w3.org/2000/01/rdf-schema#label> "conductor" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/musician> <http://www.w3.org/2000/01/rdf-schema#label> "musician" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/stagedirector> <http://www.w3.org/2000/01/rdf-schema#label> "stage director" <http://ldfi.artsdata.ca/Occupation> .
+<http://ldfi.ca/data/venue34> <http://www.w3.org/2000/01/rdf-schema#label> "Salle Albert-Rousseau" <http://ldfi.artsdata.ca/Venue> .
+<http://ontology.artsdata.ca/EndeavourPerformingArts> <http://www.w3.org/2000/01/rdf-schema#label> "Endeavour of the Performing Arts" <http://ldfi.artsdata.ca/Class> .
 <http://www.wikidata.org/entity/P1191> <http://www.w3.org/2000/01/rdf-schema#label> "date of first performance" <http://ldfi.artsdata.ca/Property> .
 <http://www.wikidata.org/entity/P585> <http://www.w3.org/2000/01/rdf-schema#label> "performance date" <http://ldfi.artsdata.ca/Property> .
 <http://www.wikidata.org/entity/P4634> <http://www.w3.org/2000/01/rdf-schema#label> "premiere type" <http://ldfi.artsdata.ca/Property> .
@@ -7259,25 +7256,14 @@ _:node48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Ro
 <http://www.wikidata.org/entity/P1705> <http://www.w3.org/2000/01/rdf-schema#label> "native label" <http://ldfi.artsdata.ca/Property> .
 <http://www.wikidata.org/entity/P1433> <http://www.w3.org/2000/01/rdf-schema#label> "published in" <http://ldfi.artsdata.ca/Property> .
 <http://www.wikidata.org/prop/direct/P131> <http://www.w3.org/2000/01/rdf-schema#label> "located in administrative territory" <http://ldfi.artsdata.ca/Property> .
-<http://ldfi.ca/data/rapper> <http://www.w3.org/2000/01/rdf-schema#label> "rapper" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/spokenword> <http://www.w3.org/2000/01/rdf-schema#label> "spoken word artist" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/actor> <http://www.w3.org/2000/01/rdf-schema#label> "actor" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/playwright> <http://www.w3.org/2000/01/rdf-schema#label> "playwright" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/songwriter> <http://www.w3.org/2000/01/rdf-schema#label> "songwriter" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/writer> <http://www.w3.org/2000/01/rdf-schema#label> "writer" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/performanceartist> <http://www.w3.org/2000/01/rdf-schema#label> "performance artist" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/filmmaker> <http://www.w3.org/2000/01/rdf-schema#label> "filmmaker" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/artist> <http://www.w3.org/2000/01/rdf-schema#label> "artist" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/canadianwriter> <http://www.w3.org/2000/01/rdf-schema#label> "Canadian writer" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/dancer> <http://www.w3.org/2000/01/rdf-schema#label> "dancer" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/acrobat> <http://www.w3.org/2000/01/rdf-schema#label> "acrobat" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/singer> <http://www.w3.org/2000/01/rdf-schema#label> "singer" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/conductor> <http://www.w3.org/2000/01/rdf-schema#label> "conductor" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/musician> <http://www.w3.org/2000/01/rdf-schema#label> "musician" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/stagedirector> <http://www.w3.org/2000/01/rdf-schema#label> "stage director" <http://ldfi.artsdata.ca/Occupation> .
-<http://ldfi.ca/data/venue34> <http://www.w3.org/2000/01/rdf-schema#label> "Salle Albert-Rousseau" <http://ldfi.artsdata.ca/Venue> .
 <http://ontology.artsdata.ca/hasMedia> <http://www.w3.org/2000/01/rdf-schema#label> "has media" <http://ldfi.artsdata.ca/Property> .
-<http://ontology.artsdata.ca/EndeavourPerformingArts> <http://www.w3.org/2000/01/rdf-schema#label> "Endeavour of the Performing Arts" <http://ldfi.artsdata.ca/Class> .
+<http://ldfi.ca/data/event83> <http://www.w3.org/2000/01/rdf-schema#label> "Lilies: Or, The Revival of a Romantic Drama" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/production28> <http://www.w3.org/2000/01/rdf-schema#label> "Lilies: Or, The Revival of a Romantic Drama" <http://ldfi.artsdata.ca/PAProduction> .
+<http://ontology.artsdata.ca/eventFeaturedAccessibility> <http://www.w3.org/2000/01/rdf-schema#label> "eventFeaturedAccessibility" <http://ldfi.artsdata.ca/Property> .
+<http://ldfi.ca/data/relaxedperformance1> <http://www.w3.org/2000/01/rdf-schema#label> "This is a relaxed performance" <http://ldfi.artsdata.ca/Event> .
+<http://ontology.artsdata.ca/RelaxedPerformance> <http://www.w3.org/2000/01/rdf-schema#label> "Relaxed Performance" <http://ldfi.artsdata.ca/Class> .
+<http://ontology.artsdata.ca/EventAccessibility> <http://www.w3.org/2000/01/rdf-schema#label> "Event Accessibility Feature" <http://ldfi.artsdata.ca/Class> .
+<http://ontology.artsdata.ca/signLanguageVideo> <http://www.w3.org/2000/01/rdf-schema#label> "sign language video description" <http://ldfi.artsdata.ca/Property> .
 <http://schema.org/AMRadioChannel> <http://schema.org/category> "issue-1004" <http://schema.org> .
 <http://schema.org/category> <http://schema.org/category> "issue-1741" <http://schema.org> .
 <http://schema.org/ActionAccessSpecification> <http://schema.org/category> "issue-1741" <http://schema.org> .
@@ -7497,6 +7483,7 @@ _:node48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Ro
 <http://ldfi.ca/data/production7> <http://schema.org/hasPart> <http://ldfi.ca/data/production7_part4> <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production7> <http://schema.org/hasPart> <http://ldfi.ca/data/production7_part5> <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/event53> <http://schema.org/hasPart> <http://ldfi.ca/data/event54> <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event53> <http://schema.org/hasPart> <http://ldfi.ca/data/event55> <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/venue15> <http://schema.org/hasPart> <http://ldfi.ca/data/venue16> <http://ldfi.artsdata.ca/Venue> .
 <http://ldfi.ca/data/venue15> <http://schema.org/hasPart> <http://ldfi.ca/data/venue17> <http://ldfi.artsdata.ca/Venue> .
 <http://ldfi.ca/data/venue15> <http://schema.org/hasPart> <http://ldfi.ca/data/venue22> <http://ldfi.artsdata.ca/Venue> .
@@ -7529,8 +7516,8 @@ _:node48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Ro
 <http://ldfi.ca/data/event18> <http://schema.org/location> "Salle André-Mathieu" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/eventseries2> <http://schema.org/location> <http://ldfi.ca/data/venue33> .
 <http://ldfi.ca/data/eventseries2> <http://schema.org/location> "Usine C" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event19> <http://schema.org/location> "Salle Albert-Rousseau" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/event19> <http://schema.org/location> <http://ldfi.ca/data/venue34> .
+<http://ldfi.ca/data/event19> <http://schema.org/location> "Salle Albert-Rousseau" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/event20> <http://schema.org/location> "L'étoile Banque nationale" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/eventseries3> <http://schema.org/location> "Centre national des arts" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/eventseries4> <http://schema.org/location> <http://ldfi.ca/data/venue4> .
@@ -7626,6 +7613,7 @@ _:node48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Ro
 <http://ldfi.ca/data/event81> <http://schema.org/location> "Kraul Studio" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/event82> <http://schema.org/location> <http://ldfi.ca/data/venue27> .
 <http://ldfi.ca/data/event82> <http://schema.org/location> "Full Circle Studio" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event83> <http://schema.org/location> "Buddies in Bad Times Theatre" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/review1> <http://schema.org/datePublished> "Thu Nov 30 2017 21:00:00 GMT-0800 (PST)" <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/review2> <http://schema.org/datePublished> "Thu Nov 30 2017 21:00:00 GMT-0800 (PST)" <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/review3> <http://schema.org/datePublished> "Thu Nov 30 2017 21:00:00 GMT-0800 (PST)" <http://ldfi.artsdata.ca/Work> .
@@ -7752,6 +7740,8 @@ _:node48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Ro
 <http://ldfi.ca/data/corporatebody48> <http://schema.org/description> "dance group" <http://ldfi.artsdata.ca/CorporateBody> .
 <http://ldfi.ca/data/corporatebody49> <http://schema.org/description> "dance group" <http://ldfi.artsdata.ca/CorporateBody> .
 <http://ldfi.ca/data/corporatebody50> <http://schema.org/description> "dance group" <http://ldfi.artsdata.ca/CorporateBody> .
+<http://ldfi.ca/data/event83> <http://schema.org/description> "theatre play" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/production28> <http://schema.org/description> "theatre production" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/event1> <http://schema.org/doorTime> "2019-02-23T19:00:00" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/production7> <http://schema.org/duration> "PT3H40M" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production8> <http://schema.org/duration> "PT1H30M" <http://ldfi.artsdata.ca/PAProduction> .
@@ -7814,26 +7804,30 @@ _:node48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org/Ro
 <http://ldfi.ca/data/event80> <http://schema.org/endDate> "2019-03-01T18:00:00" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/event81> <http://schema.org/endDate> "2019-03-02T12:00:00" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/event82> <http://schema.org/endDate> "2019-03-02T12:00:00" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/production28> <http://schema.org/endDate> "2019-05-19" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/corporatebody5> <http://schema.org/faxNumber> "416-977-2912" <http://ldfi.artsdata.ca/CorporateBody> .
 <http://ldfi.ca/data/production10> <http://schema.org/sponsor> <http://ldfi.ca/data/person106> .
 <http://ldfi.ca/data/production10> <http://schema.org/sponsor> "James F. Brown" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/eventseries4> <http://schema.org/sponsor> <http://ldfi.ca/data/corporatebody31> .
 <http://ldfi.ca/data/eventseries4> <http://schema.org/sponsor> "Hal Jackman Foundation" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/eventseries4> <http://schema.org/sponsor> _:node47 <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/eventseries4> <http://schema.org/sponsor> _:node48 <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/eventseries4> <http://schema.org/sponsor> _:node49 <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/eventseries4> <http://schema.org/sponsor> _:node50 <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/venue13> <http://schema.org/sponsor> <http://ldfi.ca/data/corporatebody35> .
 <http://ldfi.ca/data/venue13> <http://schema.org/sponsor> "Paradigm Capital" <http://ldfi.artsdata.ca/Venue> .
+_:x16DF50AE3F5node47 <http://schema.org/sponsor> <http://ldfi.ca/data/corporatebody30> .
+_:x16DF50AE3F5node1 <http://schema.org/sponsor> <http://ldfi.ca/data/corporatebody30> .
 _:node1 <http://schema.org/sponsor> <http://ldfi.ca/data/corporatebody30> .
-_:node47 <http://schema.org/sponsor> <http://ldfi.ca/data/corporatebody30> .
-_:node47 <http://schema.org/sponsor> "BMO" <http://ldfi.artsdata.ca/Event> .
-_:node48 <http://schema.org/sponsor> "anonymous" <http://ldfi.artsdata.ca/Event> .
+_:node3 <http://schema.org/sponsor> <http://ldfi.ca/data/corporatebody30> .
+_:node49 <http://schema.org/sponsor> <http://ldfi.ca/data/corporatebody30> .
+_:node49 <http://schema.org/sponsor> "BMO" <http://ldfi.artsdata.ca/Event> .
+_:node50 <http://schema.org/sponsor> "anonymous" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/production1> <http://schema.org/genre> "20th and 21first century music" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/person1> <http://schema.org/hasOccupation> <http://ldfi.ca/data/photographer> .
 <http://ldfi.ca/data/person1> <http://schema.org/hasOccupation> "photographer" <http://ldfi.artsdata.ca/Person> .
-<http://ldfi.ca/data/person2> <http://schema.org/hasOccupation> "singer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person2> <http://schema.org/hasOccupation> <http://ldfi.ca/data/singer> .
-<http://ldfi.ca/data/person3> <http://schema.org/hasOccupation> "singer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person2> <http://schema.org/hasOccupation> "singer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person3> <http://schema.org/hasOccupation> <http://ldfi.ca/data/singer> .
+<http://ldfi.ca/data/person3> <http://schema.org/hasOccupation> "singer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person4> <http://schema.org/hasOccupation> <http://ldfi.ca/data/photographer> .
 <http://ldfi.ca/data/person4> <http://schema.org/hasOccupation> "photographer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person6> <http://schema.org/hasOccupation> <http://schema.org/composer> .
@@ -7845,112 +7839,112 @@ _:node48 <http://schema.org/sponsor> "anonymous" <http://ldfi.artsdata.ca/Event>
 <http://ldfi.ca/data/person8> <http://schema.org/hasOccupation> <http://schema.org/composer> .
 <http://ldfi.ca/data/person8> <http://schema.org/hasOccupation> <http://ldfi.ca/data/composer> .
 <http://ldfi.ca/data/person8> <http://schema.org/hasOccupation> "composer" <http://ldfi.artsdata.ca/Person> .
-<http://ldfi.ca/data/person9> <http://schema.org/hasOccupation> "conductor" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person9> <http://schema.org/hasOccupation> <http://ldfi.ca/data/conductor> .
+<http://ldfi.ca/data/person9> <http://schema.org/hasOccupation> "conductor" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person10> <http://schema.org/hasOccupation> <http://schema.org/actor> .
-<http://ldfi.ca/data/person10> <http://schema.org/hasOccupation> "actor" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person10> <http://schema.org/hasOccupation> <http://ldfi.ca/data/actor> .
+<http://ldfi.ca/data/person10> <http://schema.org/hasOccupation> "actor" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person11> <http://schema.org/hasOccupation> <http://ldfi.ca/data/photographer> .
 <http://ldfi.ca/data/person11> <http://schema.org/hasOccupation> "photographer" <http://ldfi.artsdata.ca/Person> .
-<http://ldfi.ca/data/person13> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person13> <http://schema.org/hasOccupation> <http://ldfi.ca/data/playwright> .
-<http://ldfi.ca/data/person30> <http://schema.org/hasOccupation> "Canadian writer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person13> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person30> <http://schema.org/hasOccupation> <http://ldfi.ca/data/canadianwriter> .
-<http://ldfi.ca/data/person51> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person30> <http://schema.org/hasOccupation> "Canadian writer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person51> <http://schema.org/hasOccupation> <http://ldfi.ca/data/dancer> .
-<http://ldfi.ca/data/person52> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person51> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person52> <http://schema.org/hasOccupation> <http://ldfi.ca/data/dancer> .
-<http://ldfi.ca/data/person53> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person52> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person53> <http://schema.org/hasOccupation> <http://ldfi.ca/data/dancer> .
-<http://ldfi.ca/data/person54> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person53> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person54> <http://schema.org/hasOccupation> <http://ldfi.ca/data/dancer> .
-<http://ldfi.ca/data/person55> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person54> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person55> <http://schema.org/hasOccupation> <http://ldfi.ca/data/dancer> .
-<http://ldfi.ca/data/person56> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person55> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person56> <http://schema.org/hasOccupation> <http://ldfi.ca/data/dancer> .
-<http://ldfi.ca/data/person57> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person56> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person57> <http://schema.org/hasOccupation> <http://ldfi.ca/data/dancer> .
-<http://ldfi.ca/data/person58> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person57> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person58> <http://schema.org/hasOccupation> <http://ldfi.ca/data/dancer> .
-<http://ldfi.ca/data/person59> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person58> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person59> <http://schema.org/hasOccupation> <http://ldfi.ca/data/dancer> .
-<http://ldfi.ca/data/person81> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person59> <http://schema.org/hasOccupation> "dancer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person81> <http://schema.org/hasOccupation> <http://ldfi.ca/data/acrobat> .
-<http://ldfi.ca/data/person82> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person81> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person82> <http://schema.org/hasOccupation> <http://ldfi.ca/data/acrobat> .
-<http://ldfi.ca/data/person83> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person82> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person83> <http://schema.org/hasOccupation> <http://ldfi.ca/data/acrobat> .
-<http://ldfi.ca/data/person84> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person83> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person84> <http://schema.org/hasOccupation> <http://ldfi.ca/data/acrobat> .
-<http://ldfi.ca/data/person85> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person84> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person85> <http://schema.org/hasOccupation> <http://ldfi.ca/data/acrobat> .
-<http://ldfi.ca/data/person86> <http://schema.org/hasOccupation> "singer" <http://ldfi.artsdata.ca/Person> .
-<http://ldfi.ca/data/person86> <http://schema.org/hasOccupation> "musician" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person85> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person86> <http://schema.org/hasOccupation> <http://ldfi.ca/data/singer> .
 <http://ldfi.ca/data/person86> <http://schema.org/hasOccupation> <http://ldfi.ca/data/musician> .
-<http://ldfi.ca/data/person87> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person86> <http://schema.org/hasOccupation> "singer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person86> <http://schema.org/hasOccupation> "musician" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person87> <http://schema.org/hasOccupation> <http://ldfi.ca/data/acrobat> .
-<http://ldfi.ca/data/person88> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person87> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person88> <http://schema.org/hasOccupation> <http://ldfi.ca/data/acrobat> .
-<http://ldfi.ca/data/person89> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person88> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person89> <http://schema.org/hasOccupation> <http://ldfi.ca/data/acrobat> .
-<http://ldfi.ca/data/person90> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person89> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person90> <http://schema.org/hasOccupation> <http://ldfi.ca/data/acrobat> .
-<http://ldfi.ca/data/person91> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person90> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person91> <http://schema.org/hasOccupation> <http://ldfi.ca/data/acrobat> .
-<http://ldfi.ca/data/person105> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person91> <http://schema.org/hasOccupation> "acrobat" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person105> <http://schema.org/hasOccupation> <http://ldfi.ca/data/playwright> .
+<http://ldfi.ca/data/person105> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person119> <http://schema.org/hasOccupation> <http://ldfi.ca/data/photographer> .
 <http://ldfi.ca/data/person119> <http://schema.org/hasOccupation> "photographer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person120> <http://schema.org/hasOccupation> <http://ldfi.ca/data/photographer> .
-<http://ldfi.ca/data/person120> <http://schema.org/hasOccupation> "photographer" <http://ldfi.artsdata.ca/Person> .
-<http://ldfi.ca/data/person120> <http://schema.org/hasOccupation> "writer" <http://ldfi.artsdata.ca/Person> .
-<http://ldfi.ca/data/person120> <http://schema.org/hasOccupation> "rapper" <http://ldfi.artsdata.ca/Person> .
-<http://ldfi.ca/data/person120> <http://schema.org/hasOccupation> "spoken word artist" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person120> <http://schema.org/hasOccupation> <http://ldfi.ca/data/rapper> .
 <http://ldfi.ca/data/person120> <http://schema.org/hasOccupation> <http://ldfi.ca/data/spokenword> .
 <http://ldfi.ca/data/person120> <http://schema.org/hasOccupation> <http://ldfi.ca/data/writer> .
-<http://ldfi.ca/data/person121> <http://schema.org/hasOccupation> "rapper" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person120> <http://schema.org/hasOccupation> "photographer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person120> <http://schema.org/hasOccupation> "rapper" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person120> <http://schema.org/hasOccupation> "spoken word artist" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person120> <http://schema.org/hasOccupation> "writer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person121> <http://schema.org/hasOccupation> <http://ldfi.ca/data/rapper> .
+<http://ldfi.ca/data/person121> <http://schema.org/hasOccupation> "rapper" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person121> <http://schema.org/hasOccupation> "song writer" <http://ldfi.artsdata.ca/Person> .
-<http://ldfi.ca/data/person137> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person137> <http://schema.org/hasOccupation> <http://ldfi.ca/data/playwright> .
-<http://ldfi.ca/data/person138> <http://schema.org/hasOccupation> "stage director" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person137> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person138> <http://schema.org/hasOccupation> <http://ldfi.ca/data/stagedirector> .
-<http://ldfi.ca/data/person139> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person138> <http://schema.org/hasOccupation> "stage director" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person139> <http://schema.org/hasOccupation> <http://ldfi.ca/data/playwright> .
-<http://ldfi.ca/data/person140> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person139> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person140> <http://schema.org/hasOccupation> <http://ldfi.ca/data/playwright> .
-<http://ldfi.ca/data/person141> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person140> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person141> <http://schema.org/hasOccupation> <http://ldfi.ca/data/playwright> .
-<http://ldfi.ca/data/person142> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person141> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person142> <http://schema.org/hasOccupation> <http://ldfi.ca/data/playwright> .
-<http://ldfi.ca/data/person143> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person142> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person143> <http://schema.org/hasOccupation> <http://ldfi.ca/data/playwright> .
-<http://ldfi.ca/data/person144> <http://schema.org/hasOccupation> "writer" <http://ldfi.artsdata.ca/Person> .
-<http://ldfi.ca/data/person144> <http://schema.org/hasOccupation> "performance artist" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person143> <http://schema.org/hasOccupation> "playwright" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person144> <http://schema.org/hasOccupation> <http://ldfi.ca/data/writer> .
 <http://ldfi.ca/data/person144> <http://schema.org/hasOccupation> <http://ldfi.ca/data/performanceartist> .
-<http://ldfi.ca/data/person145> <http://schema.org/hasOccupation> "artist" <http://ldfi.artsdata.ca/Person> .
-<http://ldfi.ca/data/person145> <http://schema.org/hasOccupation> "filmmaker" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person144> <http://schema.org/hasOccupation> "writer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person144> <http://schema.org/hasOccupation> "performance artist" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person145> <http://schema.org/hasOccupation> <http://ldfi.ca/data/filmmaker> .
 <http://ldfi.ca/data/person145> <http://schema.org/hasOccupation> <http://ldfi.ca/data/artist> .
-<http://ldfi.ca/data/person146> <http://schema.org/hasOccupation> "filmmaker" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person145> <http://schema.org/hasOccupation> "filmmaker" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person145> <http://schema.org/hasOccupation> "artist" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person146> <http://schema.org/hasOccupation> <http://ldfi.ca/data/filmmaker> .
-<http://ldfi.ca/data/person147> <http://schema.org/hasOccupation> "filmmaker" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person146> <http://schema.org/hasOccupation> "filmmaker" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person147> <http://schema.org/hasOccupation> <http://ldfi.ca/data/filmmaker> .
-<http://ldfi.ca/data/person152> <http://schema.org/hasOccupation> "writer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person147> <http://schema.org/hasOccupation> "filmmaker" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person152> <http://schema.org/hasOccupation> <http://ldfi.ca/data/writer> .
-<http://ldfi.ca/data/person153> <http://schema.org/hasOccupation> "writer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person152> <http://schema.org/hasOccupation> "writer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person153> <http://schema.org/hasOccupation> <http://ldfi.ca/data/writer> .
-<http://ldfi.ca/data/person154> <http://schema.org/hasOccupation> "writer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person153> <http://schema.org/hasOccupation> "writer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person154> <http://schema.org/hasOccupation> <http://ldfi.ca/data/writer> .
-<http://ldfi.ca/data/person155> <http://schema.org/hasOccupation> "writer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person154> <http://schema.org/hasOccupation> "writer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person155> <http://schema.org/hasOccupation> <http://ldfi.ca/data/writer> .
-<http://ldfi.ca/data/person171> <http://schema.org/hasOccupation> "writer" <http://ldfi.artsdata.ca/Person> .
-<http://ldfi.ca/data/person171> <http://schema.org/hasOccupation> "performance artist" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person155> <http://schema.org/hasOccupation> "writer" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person171> <http://schema.org/hasOccupation> <http://ldfi.ca/data/writer> .
 <http://ldfi.ca/data/person171> <http://schema.org/hasOccupation> <http://ldfi.ca/data/performanceartist> .
+<http://ldfi.ca/data/person171> <http://schema.org/hasOccupation> "writer" <http://ldfi.artsdata.ca/Person> .
+<http://ldfi.ca/data/person171> <http://schema.org/hasOccupation> "performance artist" <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/production3> <http://schema.org/isPartOf> <http://ldfi.ca/data/production2> <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production4> <http://schema.org/isPartOf> <http://ldfi.ca/data/production2> <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production5> <http://schema.org/isPartOf> <http://ldfi.ca/data/production2> <http://ldfi.artsdata.ca/PAProduction> .
@@ -8024,13 +8018,11 @@ _:node48 <http://schema.org/sponsor> "anonymous" <http://ldfi.artsdata.ca/Event>
 <urn:uuid:72561a73-a2ee-416d-8394-18abd625afe2> <http://schema.org/roleName> "co-producer" .
 <urn:uuid:cce82665-d010-4d44-8882-68f2d8fe1038> <http://schema.org/roleName> "co-producer" .
 <urn:uuid:bef88c67-8e79-45f7-b311-16c9103fb097> <http://schema.org/roleName> "co-producer" .
-_:node3 <http://schema.org/roleName> "environnement sonore et sonorisation" <http://ldfi.artsdata.ca/PAProduction> .
-_:node4 <http://schema.org/roleName> "environnement sonore et sonorisation" <http://ldfi.artsdata.ca/PAProduction> .
-_:node5 <http://schema.org/roleName> "technicien vidéo" <http://ldfi.artsdata.ca/PAProduction> .
-_:node6 <http://schema.org/roleName> "direction technique" <http://ldfi.artsdata.ca/PAProduction> .
-_:node7 <http://schema.org/roleName> "direction technique" <http://ldfi.artsdata.ca/PAProduction> .
-_:node8 <http://schema.org/roleName> "co-producer" <http://ldfi.artsdata.ca/PAProduction> .
-_:node9 <http://schema.org/roleName> "co-producer" <http://ldfi.artsdata.ca/PAProduction> .
+_:node5 <http://schema.org/roleName> "environnement sonore et sonorisation" <http://ldfi.artsdata.ca/PAProduction> .
+_:node6 <http://schema.org/roleName> "environnement sonore et sonorisation" <http://ldfi.artsdata.ca/PAProduction> .
+_:node7 <http://schema.org/roleName> "technicien vidéo" <http://ldfi.artsdata.ca/PAProduction> .
+_:node8 <http://schema.org/roleName> "direction technique" <http://ldfi.artsdata.ca/PAProduction> .
+_:node9 <http://schema.org/roleName> "direction technique" <http://ldfi.artsdata.ca/PAProduction> .
 _:node10 <http://schema.org/roleName> "co-producer" <http://ldfi.artsdata.ca/PAProduction> .
 _:node11 <http://schema.org/roleName> "co-producer" <http://ldfi.artsdata.ca/PAProduction> .
 _:node12 <http://schema.org/roleName> "co-producer" <http://ldfi.artsdata.ca/PAProduction> .
@@ -8038,41 +8030,43 @@ _:node13 <http://schema.org/roleName> "co-producer" <http://ldfi.artsdata.ca/PAP
 _:node14 <http://schema.org/roleName> "co-producer" <http://ldfi.artsdata.ca/PAProduction> .
 _:node15 <http://schema.org/roleName> "co-producer" <http://ldfi.artsdata.ca/PAProduction> .
 _:node16 <http://schema.org/roleName> "co-producer" <http://ldfi.artsdata.ca/PAProduction> .
-_:node17 <http://schema.org/roleName> "assistant to the creators" <http://ldfi.artsdata.ca/PAProduction> .
-_:node18 <http://schema.org/roleName> "voice director" <http://ldfi.artsdata.ca/PAProduction> .
-_:node19 <http://schema.org/roleName> "technical director" <http://ldfi.artsdata.ca/PAProduction> .
-_:node20 <http://schema.org/roleName> "stage manager" <http://ldfi.artsdata.ca/PAProduction> .
-_:node21 <http://schema.org/roleName> "show control designer" <http://ldfi.artsdata.ca/PAProduction> .
-_:node22 <http://schema.org/roleName> "lighting technician" <http://ldfi.artsdata.ca/PAProduction> .
-_:node23 <http://schema.org/roleName> "sound technician" <http://ldfi.artsdata.ca/PAProduction> .
-_:node24 <http://schema.org/roleName> "wig coordinator" <http://ldfi.artsdata.ca/PAProduction> .
-_:node25 <http://schema.org/roleName> "wardrobe coordinator" <http://ldfi.artsdata.ca/PAProduction> .
-_:node26 <http://schema.org/roleName> "prop constructor" <http://ldfi.artsdata.ca/PAProduction> .
-_:node27 <http://schema.org/roleName> "cutter" <http://ldfi.artsdata.ca/PAProduction> .
-_:node28 <http://schema.org/roleName> "costume assistant" <http://ldfi.artsdata.ca/PAProduction> .
-_:node29 <http://schema.org/roleName> "stitcher" <http://ldfi.artsdata.ca/PAProduction> .
-_:node30 <http://schema.org/roleName> "stitcher" <http://ldfi.artsdata.ca/PAProduction> .
+_:node17 <http://schema.org/roleName> "co-producer" <http://ldfi.artsdata.ca/PAProduction> .
+_:node18 <http://schema.org/roleName> "co-producer" <http://ldfi.artsdata.ca/PAProduction> .
+_:node19 <http://schema.org/roleName> "assistant to the creators" <http://ldfi.artsdata.ca/PAProduction> .
+_:node20 <http://schema.org/roleName> "voice director" <http://ldfi.artsdata.ca/PAProduction> .
+_:node21 <http://schema.org/roleName> "technical director" <http://ldfi.artsdata.ca/PAProduction> .
+_:node22 <http://schema.org/roleName> "stage manager" <http://ldfi.artsdata.ca/PAProduction> .
+_:node23 <http://schema.org/roleName> "show control designer" <http://ldfi.artsdata.ca/PAProduction> .
+_:node24 <http://schema.org/roleName> "lighting technician" <http://ldfi.artsdata.ca/PAProduction> .
+_:node25 <http://schema.org/roleName> "sound technician" <http://ldfi.artsdata.ca/PAProduction> .
+_:node26 <http://schema.org/roleName> "wig coordinator" <http://ldfi.artsdata.ca/PAProduction> .
+_:node27 <http://schema.org/roleName> "wardrobe coordinator" <http://ldfi.artsdata.ca/PAProduction> .
+_:node28 <http://schema.org/roleName> "prop constructor" <http://ldfi.artsdata.ca/PAProduction> .
+_:node29 <http://schema.org/roleName> "cutter" <http://ldfi.artsdata.ca/PAProduction> .
+_:node30 <http://schema.org/roleName> "costume assistant" <http://ldfi.artsdata.ca/PAProduction> .
 _:node31 <http://schema.org/roleName> "stitcher" <http://ldfi.artsdata.ca/PAProduction> .
-_:node32 <http://schema.org/roleName> "headpiece sculptor" <http://ldfi.artsdata.ca/PAProduction> .
-_:node33 <http://schema.org/roleName> "company manager on tour" <http://ldfi.artsdata.ca/PAProduction> .
-_:node34 <http://schema.org/roleName> "associate producer" <http://ldfi.artsdata.ca/PAProduction> .
-_:node35 <http://schema.org/roleName> "creative director" <http://ldfi.artsdata.ca/PAProduction> .
-_:node36 <http://schema.org/roleName> "musical director" <http://ldfi.artsdata.ca/PAProduction> .
-_:node37 <http://schema.org/roleName> "acrobatic designer" <http://ldfi.artsdata.ca/PAProduction> .
-_:node37 <http://schema.org/roleName> "head coach" <http://ldfi.artsdata.ca/PAProduction> .
-_:node38 <http://schema.org/roleName> "assistant to the creative director" <http://ldfi.artsdata.ca/PAProduction> .
-_:node39 <http://schema.org/roleName> "participation to the choreographies" <http://ldfi.artsdata.ca/PAProduction> .
-_:node40 <http://schema.org/roleName> "coach" <http://ldfi.artsdata.ca/PAProduction> .
-_:node40 <http://schema.org/roleName> "assistant to the acrobatic designer" <http://ldfi.artsdata.ca/PAProduction> .
-_:node41 <http://schema.org/roleName> "make-up designer" <http://ldfi.artsdata.ca/PAProduction> .
-_:node41 <http://schema.org/roleName> "hairstyle designer" <http://ldfi.artsdata.ca/PAProduction> .
-_:node42 <http://schema.org/roleName> "Canada" <http://ldfi.artsdata.ca/PAProduction> .
-_:node43 <http://schema.org/roleName> "Laura" <http://ldfi.artsdata.ca/PAProduction> .
-_:node44 <http://schema.org/roleName> "Amanda" <http://ldfi.artsdata.ca/PAProduction> .
-_:node45 <http://schema.org/roleName> "Tom" <http://ldfi.artsdata.ca/PAProduction> .
-_:node46 <http://schema.org/roleName> "Jim" <http://ldfi.artsdata.ca/PAProduction> .
-_:node47 <http://schema.org/roleName> "season sponsor" <http://ldfi.artsdata.ca/Event> .
-_:node48 <http://schema.org/roleName> "underwriter" <http://ldfi.artsdata.ca/Event> .
+_:node32 <http://schema.org/roleName> "stitcher" <http://ldfi.artsdata.ca/PAProduction> .
+_:node33 <http://schema.org/roleName> "stitcher" <http://ldfi.artsdata.ca/PAProduction> .
+_:node34 <http://schema.org/roleName> "headpiece sculptor" <http://ldfi.artsdata.ca/PAProduction> .
+_:node35 <http://schema.org/roleName> "company manager on tour" <http://ldfi.artsdata.ca/PAProduction> .
+_:node36 <http://schema.org/roleName> "associate producer" <http://ldfi.artsdata.ca/PAProduction> .
+_:node37 <http://schema.org/roleName> "creative director" <http://ldfi.artsdata.ca/PAProduction> .
+_:node38 <http://schema.org/roleName> "musical director" <http://ldfi.artsdata.ca/PAProduction> .
+_:node39 <http://schema.org/roleName> "acrobatic designer" <http://ldfi.artsdata.ca/PAProduction> .
+_:node39 <http://schema.org/roleName> "head coach" <http://ldfi.artsdata.ca/PAProduction> .
+_:node40 <http://schema.org/roleName> "assistant to the creative director" <http://ldfi.artsdata.ca/PAProduction> .
+_:node41 <http://schema.org/roleName> "participation to the choreographies" <http://ldfi.artsdata.ca/PAProduction> .
+_:node42 <http://schema.org/roleName> "coach" <http://ldfi.artsdata.ca/PAProduction> .
+_:node42 <http://schema.org/roleName> "assistant to the acrobatic designer" <http://ldfi.artsdata.ca/PAProduction> .
+_:node43 <http://schema.org/roleName> "make-up designer" <http://ldfi.artsdata.ca/PAProduction> .
+_:node43 <http://schema.org/roleName> "hairstyle designer" <http://ldfi.artsdata.ca/PAProduction> .
+_:node44 <http://schema.org/roleName> "Canada" <http://ldfi.artsdata.ca/PAProduction> .
+_:node45 <http://schema.org/roleName> "Laura" <http://ldfi.artsdata.ca/PAProduction> .
+_:node46 <http://schema.org/roleName> "Amanda" <http://ldfi.artsdata.ca/PAProduction> .
+_:node47 <http://schema.org/roleName> "Tom" <http://ldfi.artsdata.ca/PAProduction> .
+_:node48 <http://schema.org/roleName> "Jim" <http://ldfi.artsdata.ca/PAProduction> .
+_:node49 <http://schema.org/roleName> "season sponsor" <http://ldfi.artsdata.ca/Event> .
+_:node50 <http://schema.org/roleName> "underwriter" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/production23> <http://schema.org/offers> <http://ldfi.ca/data/tickets25> <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production24> <http://schema.org/offers> <http://ldfi.ca/data/tickets26> <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production25> <http://schema.org/offers> <http://ldfi.ca/data/tickets27> <http://ldfi.artsdata.ca/PAProduction> .
@@ -8124,7 +8118,7 @@ _:node48 <http://schema.org/roleName> "underwriter" <http://ldfi.artsdata.ca/Eve
 <http://ldfi.ca/data/event67> <http://schema.org/offers> <http://ldfi.ca/data/tickets49> <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/event68> <http://schema.org/offers> <http://ldfi.ca/data/tickets50> <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/event69> <http://schema.org/offers> <http://ldfi.ca/data/tickets51> <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/production9> <http://schema.org/organizer> _:node42 <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production9> <http://schema.org/organizer> _:node44 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production23> <http://schema.org/organizer> <http://ldfi.ca/data/corporatebody38> .
 <http://ldfi.ca/data/production23> <http://schema.org/organizer> "The Cultch" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/event39> <http://schema.org/organizer> <http://ldfi.ca/data/corporatebody52> .
@@ -8169,9 +8163,10 @@ _:node48 <http://schema.org/roleName> "underwriter" <http://ldfi.artsdata.ca/Eve
 <http://ldfi.ca/data/event81> <http://schema.org/organizer> "Jo Clancy" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/event82> <http://schema.org/organizer> <http://ldfi.ca/data/person170> .
 <http://ldfi.ca/data/event82> <http://schema.org/organizer> "Vanessa Cito" <http://ldfi.artsdata.ca/Event> .
-_:x16C6CD314FAnode358 <http://schema.org/organizer> <http://ldfi.ca/data/corporatebody34> .
-_:node42 <http://schema.org/organizer> <http://ldfi.ca/data/corporatebody34> .
-_:node42 <http://schema.org/organizer> "Desjardins" <http://ldfi.artsdata.ca/PAProduction> .
+_:x16DF50AE3F5node42 <http://schema.org/organizer> <http://ldfi.ca/data/corporatebody34> .
+_:x16DF50AE3F5x16C6CD314FAnode358 <http://schema.org/organizer> <http://ldfi.ca/data/corporatebody34> .
+_:node44 <http://schema.org/organizer> <http://ldfi.ca/data/corporatebody34> .
+_:node44 <http://schema.org/organizer> "Desjardins" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/address1> <http://schema.org/postalCode> "M5J 1H8" <http://ldfi.artsdata.ca/ContactPoint> .
 <http://ldfi.ca/data/address2> <http://schema.org/postalCode> "H2T 2T6" <http://ldfi.artsdata.ca/ContactPoint> .
 <http://ldfi.ca/data/venue1> <http://schema.org/postalCode> "M6G 1C5" <http://ldfi.artsdata.ca/Venue> .
@@ -8273,6 +8268,7 @@ _:node42 <http://schema.org/organizer> "Desjardins" <http://ldfi.artsdata.ca/PAP
 <http://ldfi.ca/data/event80> <http://schema.org/startDate> "2019-03-01T17:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://ldfi.ca/data/event81> <http://schema.org/startDate> "2019-03-02T10:30:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://ldfi.ca/data/event82> <http://schema.org/startDate> "2019-03-02T10:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<http://ldfi.ca/data/event83> <http://schema.org/startDate> "2019-05-18T20:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
 <http://ldfi.ca/data/address1> <http://schema.org/streetAddress> "500-145 Wellington St. W." <http://ldfi.artsdata.ca/ContactPoint> .
 <http://ldfi.ca/data/address2> <http://schema.org/streetAddress> "4949, rue Clark – bureau #128" <http://ldfi.artsdata.ca/ContactPoint> .
 <http://ldfi.ca/data/event26> <http://schema.org/subEvent> <http://ldfi.ca/data/eventseries7> <http://ldfi.artsdata.ca/Event> .
@@ -8387,7 +8383,6 @@ _:node42 <http://schema.org/organizer> "Desjardins" <http://ldfi.artsdata.ca/PAP
 <http://ldfi.ca/data/event61> <http://schema.org/workFeatured> <http://ldfi.ca/data/movie3> <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/event54> <http://schema.org/workPerformed> "A Very Polite Genocide or The Girl Who Fell to Earth" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/event55> <http://schema.org/workPerformed> "kihēw" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event53> <http://ldfi.ca/data/event55> ""^^<http://www.w3.org/2001/XMLSchema#integer> <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/production8> <http://www.wikidata.org/entity/P1191> "Tue Feb 19 2019 21:00:00 GMT-0800 (PST)" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production10> <http://www.wikidata.org/entity/P1191> "Tue May 21 2019 21:00:00 GMT-0700 (PDT)" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production11> <http://www.wikidata.org/entity/P1191> "Fri Apr 05 2019 21:00:00 GMT-0700 (PDT)" <http://ldfi.artsdata.ca/PAProduction> .
@@ -8409,6 +8404,7 @@ _:node42 <http://schema.org/organizer> "Desjardins" <http://ldfi.artsdata.ca/PAP
 <http://ldfi.ca/data/eventseries4> <http://www.wikidata.org/entity/P1191> "Wed Mar 06 2019 21:00:00 GMT-0800 (PST)" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/eventseries5> <http://www.wikidata.org/entity/P1191> "Tue Feb 19 2019 21:00:00 GMT-0800 (PST)" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/eventseries13> <http://www.wikidata.org/entity/P1191> "2019-05-22T14:00" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/production28> <http://www.wikidata.org/entity/P1191> "Fri May 17 2019 21:00:00 GMT-0700 (PDT)" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/event1> <http://www.wikidata.org/entity/P585> "Fri Feb 22 2019 21:00:00 GMT-0800 (PST)" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/event4> <http://www.wikidata.org/entity/P585> "Tue Oct 01 2019 21:00:00 GMT-0700 (PDT)" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/event5> <http://www.wikidata.org/entity/P585> "Wed Oct 02 2019 21:00:00 GMT-0700 (PDT)" <http://ldfi.artsdata.ca/Event> .
@@ -8466,28 +8462,35 @@ _:node42 <http://schema.org/organizer> "Desjardins" <http://ldfi.artsdata.ca/PAP
 <http://ldfi.ca/data/production9> <http://www.wikidata.org/entity/P161> "Emma Rogers" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production9> <http://www.wikidata.org/entity/P161> "Jérémy Vitupier" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production9> <http://www.wikidata.org/entity/P161> "Antonin Wicky" <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production10> <http://www.wikidata.org/entity/P161> _:node43 <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production10> <http://www.wikidata.org/entity/P161> _:node44 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production10> <http://www.wikidata.org/entity/P161> _:node45 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production10> <http://www.wikidata.org/entity/P161> _:node46 <http://ldfi.artsdata.ca/PAProduction> .
-_:x16C6CD314FAnode359 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/photo53> .
-_:x16C6CD314FAnode359 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/photo68> .
-_:x16C6CD314FAnode359 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person107> .
-_:x16C6CD314FAnode360 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person108> .
-_:x16C6CD314FAnode361 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/photo52> .
-_:x16C6CD314FAnode361 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person109> .
-_:x16C6CD314FAnode362 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person110> .
-_:node43 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/photo53> .
-_:node43 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/photo68> .
-_:node43 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person107> .
-_:node43 <http://www.wikidata.org/entity/P161> "Julia Course" <http://ldfi.artsdata.ca/PAProduction> .
-_:node44 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person108> .
-_:node44 <http://www.wikidata.org/entity/P161> "Allegra Fulton" <http://ldfi.artsdata.ca/PAProduction> .
-_:node45 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/photo52> .
-_:node45 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person109> .
-_:node45 <http://www.wikidata.org/entity/P161> "André Sills" <http://ldfi.artsdata.ca/PAProduction> .
-_:node46 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person110> .
-_:node46 <http://www.wikidata.org/entity/P161> "Jonathan Tan" <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production10> <http://www.wikidata.org/entity/P161> _:node47 <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production10> <http://www.wikidata.org/entity/P161> _:node48 <http://ldfi.artsdata.ca/PAProduction> .
+_:x16DF50AE3F5node43 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/photo53> .
+_:x16DF50AE3F5node43 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/photo68> .
+_:x16DF50AE3F5node43 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person107> .
+_:x16DF50AE3F5node44 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person108> .
+_:x16DF50AE3F5node45 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/photo52> .
+_:x16DF50AE3F5node45 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person109> .
+_:x16DF50AE3F5node46 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person110> .
+_:x16DF50AE3F5x16C6CD314FAnode359 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/photo53> .
+_:x16DF50AE3F5x16C6CD314FAnode359 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/photo68> .
+_:x16DF50AE3F5x16C6CD314FAnode359 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person107> .
+_:x16DF50AE3F5x16C6CD314FAnode360 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person108> .
+_:x16DF50AE3F5x16C6CD314FAnode361 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/photo52> .
+_:x16DF50AE3F5x16C6CD314FAnode361 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person109> .
+_:x16DF50AE3F5x16C6CD314FAnode362 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person110> .
+_:node45 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/photo53> .
+_:node45 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/photo68> .
+_:node45 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person107> .
+_:node45 <http://www.wikidata.org/entity/P161> "Julia Course" <http://ldfi.artsdata.ca/PAProduction> .
+_:node46 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person108> .
+_:node46 <http://www.wikidata.org/entity/P161> "Allegra Fulton" <http://ldfi.artsdata.ca/PAProduction> .
+_:node47 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/photo52> .
+_:node47 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person109> .
+_:node47 <http://www.wikidata.org/entity/P161> "André Sills" <http://ldfi.artsdata.ca/PAProduction> .
+_:node48 <http://www.wikidata.org/entity/P161> <http://ldfi.ca/data/person110> .
+_:node48 <http://www.wikidata.org/entity/P161> "Jonathan Tan" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production1> <http://www.wikidata.org/entity/P2348> <http://ldfi.ca/data/season1> .
 <http://ldfi.ca/data/production1> <http://www.wikidata.org/entity/P2348> "Canadian Performing Arts Season 2019-2020" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production8> <http://www.wikidata.org/entity/P2348> "Canadian performing arts season 2018-2019" <http://ldfi.artsdata.ca/PAProduction> .
@@ -8707,6 +8710,7 @@ _:node46 <http://www.wikidata.org/entity/P161> "Jonathan Tan" <http://ldfi.artsd
 <http://ldfi.ca/data/event37> <http://www.wikidata.org/entity/P4646> <http://ldfi.ca/data/production10> <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/event38> <http://www.wikidata.org/entity/P4646> <http://ldfi.ca/data/production10> <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/event49> <http://www.wikidata.org/entity/P4646> <http://ldfi.ca/data/production27> <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event83> <http://www.wikidata.org/entity/P4646> <http://ldfi.ca/data/production28> <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/venue1> <http://www.wikidata.org/entity/P6375> "722 College Street" <http://ldfi.artsdata.ca/Venue> .
 <http://ldfi.ca/data/venue2> <http://www.wikidata.org/entity/P6375> "60 Simcoe Street" <http://ldfi.artsdata.ca/Venue> .
 <http://ldfi.ca/data/venue4> <http://www.wikidata.org/entity/P6375> "27 Front Street" <http://ldfi.artsdata.ca/Venue> .
@@ -8765,15 +8769,6 @@ _:node46 <http://www.wikidata.org/entity/P161> "Jonathan Tan" <http://ldfi.artsd
 <http://ldfi.ca/data/production7_part3> <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody8> <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody18> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "Kidd Pivot" <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "abc98a09-d74a-4c35-9472-4d3fb2063cd9" .
-<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "18194ed4-f6b8-42ff-8470-7e42450621db" .
-<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "93d50f83-d277-4a42-96a6-a2f5991c4de2" .
-<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "770b57a1-c408-4400-a5a7-dc15f107ab26" .
-<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "d0bdc8ea-b911-48b8-8837-11d9e6405e81" .
-<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "03501cc2-5ae2-484c-8de9-f75ee2da147f" .
-<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "9a82288d-e3e2-4e08-b7ee-2440fcd6dc78" .
-<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "bff39dec-54f2-4cea-8102-5d755969884b" .
-<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "8cc7cc90-9257-4ca2-abc1-3cd1239bb57f" .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> <urn:uuid:3ee42cfc-82ba-46ae-b5a2-a616a8adc0e3> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> <urn:uuid:62de3fc6-84fb-49ff-9234-81d868b3af39> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> <urn:uuid:9ca7fdcd-c427-4c44-97c9-b76be482b2b4> .
@@ -8783,8 +8778,15 @@ _:node46 <http://www.wikidata.org/entity/P161> "Jonathan Tan" <http://ldfi.artsd
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> <urn:uuid:72561a73-a2ee-416d-8394-18abd625afe2> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> <urn:uuid:cce82665-d010-4d44-8882-68f2d8fe1038> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> <urn:uuid:bef88c67-8e79-45f7-b311-16c9103fb097> .
-<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> _:node8 <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> _:node9 <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "abc98a09-d74a-4c35-9472-4d3fb2063cd9" .
+<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "18194ed4-f6b8-42ff-8470-7e42450621db" .
+<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "93d50f83-d277-4a42-96a6-a2f5991c4de2" .
+<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "770b57a1-c408-4400-a5a7-dc15f107ab26" .
+<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "d0bdc8ea-b911-48b8-8837-11d9e6405e81" .
+<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "03501cc2-5ae2-484c-8de9-f75ee2da147f" .
+<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "9a82288d-e3e2-4e08-b7ee-2440fcd6dc78" .
+<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "bff39dec-54f2-4cea-8102-5d755969884b" .
+<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> "8cc7cc90-9257-4ca2-abc1-3cd1239bb57f" .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> _:node10 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> _:node11 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> _:node12 <http://ldfi.artsdata.ca/PAProduction> .
@@ -8792,17 +8794,19 @@ _:node46 <http://www.wikidata.org/entity/P161> "Jonathan Tan" <http://ldfi.artsd
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> _:node14 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> _:node15 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> _:node16 <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> _:node17 <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60062> _:node18 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production9> <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody33> .
 <http://ldfi.ca/data/production9> <http://rdaregistry.info/Elements/u/P60062> "Les productions Neuvart Inc." <http://ldfi.artsdata.ca/PAProduction> .
-_:x16C6CD314FAnode324 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody20> .
-_:x16C6CD314FAnode325 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody21> .
-_:x16C6CD314FAnode326 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody22> .
-_:x16C6CD314FAnode327 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody23> .
-_:x16C6CD314FAnode328 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody24> .
-_:x16C6CD314FAnode329 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody25> .
-_:x16C6CD314FAnode330 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody26> .
-_:x16C6CD314FAnode331 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody28> .
-_:x16C6CD314FAnode332 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody29> .
+_:x16DF50AE3F5node8 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody20> .
+_:x16DF50AE3F5node9 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody21> .
+_:x16DF50AE3F5node10 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody22> .
+_:x16DF50AE3F5node11 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody23> .
+_:x16DF50AE3F5node12 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody24> .
+_:x16DF50AE3F5node13 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody25> .
+_:x16DF50AE3F5node14 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody26> .
+_:x16DF50AE3F5node15 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody28> .
+_:x16DF50AE3F5node16 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody29> .
 <urn:uuid:3ee42cfc-82ba-46ae-b5a2-a616a8adc0e3> <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody20> .
 <urn:uuid:62de3fc6-84fb-49ff-9234-81d868b3af39> <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody21> .
 <urn:uuid:9ca7fdcd-c427-4c44-97c9-b76be482b2b4> <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody22> .
@@ -8812,24 +8816,33 @@ _:x16C6CD314FAnode332 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.c
 <urn:uuid:72561a73-a2ee-416d-8394-18abd625afe2> <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody26> .
 <urn:uuid:cce82665-d010-4d44-8882-68f2d8fe1038> <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody28> .
 <urn:uuid:bef88c67-8e79-45f7-b311-16c9103fb097> <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody29> .
-_:node8 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody20> .
-_:node8 <http://rdaregistry.info/Elements/u/P60062> "Sadler's Wells" <http://ldfi.artsdata.ca/PAProduction> .
-_:node9 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody21> .
-_:node9 <http://rdaregistry.info/Elements/u/P60062> "Théâtre de la Ville/La Villette" <http://ldfi.artsdata.ca/PAProduction> .
-_:node10 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody22> .
-_:node10 <http://rdaregistry.info/Elements/u/P60062> "Banff Centre for Arts and Creativity" <http://ldfi.artsdata.ca/PAProduction> .
-_:node11 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody23> .
-_:node11 <http://rdaregistry.info/Elements/u/P60062> "University of North Carolina at Chapel Hill" <http://ldfi.artsdata.ca/PAProduction> .
-_:node12 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody24> .
-_:node12 <http://rdaregistry.info/Elements/u/P60062> "Canadian Stage" <http://ldfi.artsdata.ca/PAProduction> .
-_:node13 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody25> .
-_:node13 <http://rdaregistry.info/Elements/u/P60062> "National Arts Centre" <http://ldfi.artsdata.ca/PAProduction> .
-_:node14 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody26> .
-_:node14 <http://rdaregistry.info/Elements/u/P60062> "DanceHouse" <http://ldfi.artsdata.ca/PAProduction> .
-_:node15 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody28> .
-_:node15 <http://rdaregistry.info/Elements/u/P60062> "Danse Danse" <http://ldfi.artsdata.ca/PAProduction> .
-_:node16 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody29> .
-_:node16 <http://rdaregistry.info/Elements/u/P60062> "Seattle Theatre Group" <http://ldfi.artsdata.ca/PAProduction> .
+_:x16DF50AE3F5x16C6CD314FAnode324 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody20> .
+_:x16DF50AE3F5x16C6CD314FAnode325 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody21> .
+_:x16DF50AE3F5x16C6CD314FAnode326 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody22> .
+_:x16DF50AE3F5x16C6CD314FAnode327 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody23> .
+_:x16DF50AE3F5x16C6CD314FAnode328 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody24> .
+_:x16DF50AE3F5x16C6CD314FAnode329 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody25> .
+_:x16DF50AE3F5x16C6CD314FAnode330 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody26> .
+_:x16DF50AE3F5x16C6CD314FAnode331 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody28> .
+_:x16DF50AE3F5x16C6CD314FAnode332 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody29> .
+_:node10 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody20> .
+_:node10 <http://rdaregistry.info/Elements/u/P60062> "Sadler's Wells" <http://ldfi.artsdata.ca/PAProduction> .
+_:node11 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody21> .
+_:node11 <http://rdaregistry.info/Elements/u/P60062> "Théâtre de la Ville/La Villette" <http://ldfi.artsdata.ca/PAProduction> .
+_:node12 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody22> .
+_:node12 <http://rdaregistry.info/Elements/u/P60062> "Banff Centre for Arts and Creativity" <http://ldfi.artsdata.ca/PAProduction> .
+_:node13 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody23> .
+_:node13 <http://rdaregistry.info/Elements/u/P60062> "University of North Carolina at Chapel Hill" <http://ldfi.artsdata.ca/PAProduction> .
+_:node14 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody24> .
+_:node14 <http://rdaregistry.info/Elements/u/P60062> "Canadian Stage" <http://ldfi.artsdata.ca/PAProduction> .
+_:node15 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody25> .
+_:node15 <http://rdaregistry.info/Elements/u/P60062> "National Arts Centre" <http://ldfi.artsdata.ca/PAProduction> .
+_:node16 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody26> .
+_:node16 <http://rdaregistry.info/Elements/u/P60062> "DanceHouse" <http://ldfi.artsdata.ca/PAProduction> .
+_:node17 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody28> .
+_:node17 <http://rdaregistry.info/Elements/u/P60062> "Danse Danse" <http://ldfi.artsdata.ca/PAProduction> .
+_:node18 <http://rdaregistry.info/Elements/u/P60062> <http://ldfi.ca/data/corporatebody29> .
+_:node18 <http://rdaregistry.info/Elements/u/P60062> "Seattle Theatre Group" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/musicalwork1> <http://purl.org/vocab/frbr/core#creator> <http://ldfi.ca/data/person6> .
 <http://ldfi.ca/data/musicalwork1> <http://purl.org/vocab/frbr/core#creator> "Samuel Barber" <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/musicalwork2> <http://purl.org/vocab/frbr/core#creator> <http://ldfi.ca/data/person7> .
@@ -9068,6 +9081,7 @@ _:node16 <http://rdaregistry.info/Elements/u/P60062> "Seattle Theatre Group" <ht
 <http://ldfi.ca/data/img69> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#locator> "https://www.shawfest.com/wp-content/uploads/2018/11/Tennessee-Williams.jpg" <http://ldfi.artsdata.ca/MediaResource> .
 <http://ldfi.ca/data/img70> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#locator> "https://www.shawfest.com/wp-content/uploads/2018/10/Glass1200x1200.jpg" <http://ldfi.artsdata.ca/MediaResource> .
 <http://ldfi.ca/data/img71> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#locator> "https://fullcircle.ca/wp-content/uploads/2019/02/HR-Headshot-JC-2018-e1549410242530-200x300.jpg" <http://ldfi.artsdata.ca/MediaResource> .
+<http://ldfi.ca/data/img72> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#locator> "http://creativeusers.net/wp-content/uploads/2019/03/accessing-the-arts-buddies-in-bad-times-theatre-lilies-or-the-revival-of-a-romantic-drama-asl-interpreted-relaxed-performance.jpg" <http://ldfi.artsdata.ca/MediaResource> .
 <http://ldfi.ca/data/vid5> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#duration> "30" <http://ldfi.artsdata.ca/MediaResource> .
 <http://ldfi.ca/data/contactpoint2> <http://ontology.artsdata.ca/contactPerson> <http://ldfi.ca/data/person5> .
 <http://ldfi.ca/data/contactpoint2> <http://ontology.artsdata.ca/contactPerson> "Olga Ranzenhofer" <http://ldfi.artsdata.ca/ContactPoint> .
@@ -9144,6 +9158,8 @@ _:node16 <http://rdaregistry.info/Elements/u/P60062> "Seattle Theatre Group" <ht
 <http://ldfi.ca/data/event69> <http://ontology.artsdata.ca/promotionalDescription> "One%20of%20our%20most%20beloved%20events!%20Jo%20Billows%20(Northern%20Coast%20Salish)%20pulls%20together%20a%20slamdunkin%E2%80%99%20evening%20in%20honour%20of%20%E2%80%9CEast%20Van%20ghetto%20poet%E2%80%9D%20Zaccheus%20Jackson%20Nyce%20(Blackfoot),%20the%20original%20curator%20of%20this%20event.%20This%20evening%20will%20showcase%20a%20variety%20of%20poets%20and%20poetic%20styles.%20Be%20prepared%20to%20laugh%20and%20be%20moved%20by%20their%20powerful%20words!" <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/event72> <http://ontology.artsdata.ca/promotionalDescription> "Featured%20guests%20include%20Sharon%20Kallis,%20Giorgio%20Magnanensi,%20Tina%20Pearson,%20Rob%20Thomson,%20and%20Hildegard%20Westerkamp." <http://ldfi.artsdata.ca/Event> .
 <http://ldfi.ca/data/book1> <http://ontology.artsdata.ca/promotionalDescription> "Hydro-Qu%C3%A9bec%20a%20longtemps%20symbolis%C3%A9%20les%20plus%20grands%20r%C3%AAves%20des%20Qu%C3%A9b%C3%A9cois,%20leur%20prise%20de%20pouvoir%20et%20leur%20affranchissement.%20Mais,%20plus%20de%2070%20ans%20apr%C3%A8s%20la%20cr%C3%A9ation%20de%20cette%20soci%C3%A9t%C3%A9%20d%E2%80%99%C3%89tat,%20sommes-nous%20toujours%20%C2%ABmaitres%20chez%20nous%C2%BB?%20Envoy%C3%A9e%20au%20front%20par%20Annabel%20Soutar%20et%20sa%20compagnie%20Porte%20Parole,%20Christine%20Beaulieu%20se%20fait%20l%E2%80%99interpr%C3%A8te%20du%20citoyen%20dans%20un%20feuilleton%20politique%20palpitant.%20Th%C3%A9%C3%A2tre%20documentaire%20exposant%20les%20facettes%20oppos%C3%A9es%20d%E2%80%99un%20enjeu%20de%20soci%C3%A9t%C3%A9%20essentiel,%20%C2%ABJ%E2%80%99aime%20Hydro%C2%BB%20lance%20une%20%C3%A9pineuse%20et%20passionnante%20discussion:%20qu%E2%80%99est%20devenue%20la%20relation%20entre%20Hydro-Qu%C3%A9bec%20et%20les%20Qu%C3%A9b%C3%A9cois?" <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/event83> <http://ontology.artsdata.ca/promotionalDescription> "In%201912,%20two%20schoolboys%20fall%20in%20love%20performing%20a%20play%20about%20Saint%20Sebastian.%20Their%20passion%20is%20interrupted%20when%20one%20is%20unjustly%20sent%20to%20prison.%20Decades%20later,%20several%20inmates%20agree%20to%20stage%20this%20story%20of%20young%20love%20in%20search%20of%20their%20own%20redemption.%20Prolific%20indie%20company%20lemonTree%20creations%20revives%20Michel%20Marc%20Bouchard%E2%80%99s%20masterpiece%20with%20Walter%20Borden%20(African/Mi%E2%80%99qmaq/Choctaw)%20leading%20a%20cast%20of%20Indigenous,%20Black,%20and%20culturally%20diverse%20artists%20to%20make%20visible%20the%20high%20incarceration%20rates%20of%20these%20communities.%20Centring%20Indigeneity%20and%20diverse%20worldviews,%20the%20creative%20team%20bring%20this%20romantic%20drama%20into%20the%2021st%20century,%20unearthing%20love,%20lies,%20and%20colonialism." <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/production28> <http://ontology.artsdata.ca/promotionalDescription> "In%201912,%20two%20schoolboys%20fall%20in%20love%20performing%20a%20play%20about%20Saint%20Sebastian.%20Their%20passion%20is%20interrupted%20when%20one%20is%20unjustly%20sent%20to%20prison.%20Decades%20later,%20several%20inmates%20agree%20to%20stage%20this%20story%20of%20young%20love%20in%20search%20of%20their%20own%20redemption.%20Prolific%20indie%20company%20lemonTree%20creations%20revives%20Michel%20Marc%20Bouchard%E2%80%99s%20masterpiece%20with%20Walter%20Borden%20(African/Mi%E2%80%99qmaq/Choctaw)%20leading%20a%20cast%20of%20Indigenous,%20Black,%20and%20culturally%20diverse%20artists%20to%20make%20visible%20the%20high%20incarceration%20rates%20of%20these%20communities.%20Centring%20Indigeneity%20and%20diverse%20worldviews,%20the%20creative%20team%20bring%20this%20romantic%20drama%20into%20the%2021st%20century,%20unearthing%20love,%20lies,%20and%20colonialism." <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/person81> <http://rdaregistry.info/Elements/u/P60484> "Andrei%20was%20plunged%20into%20the%20art%20world%20at%20a%20very%20young%20age%20when%20he%20attended%20his%20sister%E2%80%99s%20voice%20lessons.%20He%20followed%20in%20her%20musical%20footsteps%20studying%20voice%20as%20well%20as%20piano,%20guitar%20and%20domra.%20This%20led%20him%20into%20musical%20theatre,%20where%20he%20was%20initiated%20into%20dance.%20Unable%20to%20stay%20in%20one%20place%20for%20a%20second,%20he%20threw%20himself%20into%20a%20range%20of%20sports%20before%20focusing%20on%20artistic%20gymnastics,%20just%20as%20his%20grandfather%20had.%20He%20eventually%20left%20the%20family%20nest%20to%20move%20to%20Montreal%20and%20continue%20his%20training%20in%20hand%20to%20hand%20and%20Chinese%20pole%20at%20the%20National%20Circus%20School%20over%20five%20years.%20Andrei%20is%20now%20ready%20to%20discover%20the%20nomadic%20circus%20life%20with%20his%20partner%20Emma." <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person82> <http://rdaregistry.info/Elements/u/P60484> "Tuedon%20grew%20up%20in%20Vancouver%20in%20a%20family%20that%20exposed%20her%20to%20the%20arts,%20particularly%20public%20art%20from%20the%20local%20communities.%20With%20her%20long%20legs,%20flexibility%20and%20creativity,%20Tuedon%20represented%20British%20Columbia%20at%20competitions%20in%20Canada%20and%20the%20United%20States%20for%20several%20years,%20winning%20medals%20in%20artistic%20gymnastics.%20Seeking%20to%20combine%20her%20twin%20passions%20for%20sports%20and%20art,%20she%20arrived%20at%20the%20age%20of%20fifteen%20at%20the%20National%20Circus%20School%20in%20Montreal%20where%20she%20specialized%20in%20aerial%20straps,%20contortion%20and%20hula%20hoop.%20Tuedon%20aspires%20to%20redefine%20the%20discipline%20of%20aerial%20straps%20with%20a%20powerful%20combination%20of%20femininity,%20contortion,%20vulnerability%20and%20strength." <http://ldfi.artsdata.ca/Person> .
 <http://ldfi.ca/data/person83> <http://rdaregistry.info/Elements/u/P60484> "Una%20has%20been%20practicing%20the%20circus%20arts%20since%20she%20was%20a%20young%20girl.%20Soon%20after%20learning%20to%20tie%20her%20shoes,%20she%20was%20on%20her%20way%20touring%20street%20festivals%20with%20her%20brother,%20ball-walking,%20hula-hooping%20and%20playing%20the%20violin.%20Before%20joining%20the%20National%20Circus%20School%20in%20Montreal,%20Una%20trained%20at%20Versatile%20Arts%20in%20Seattle%20and%20Circus%20Smirkus,%20a%20traveling%20youth%20circus.%20Una%20loves%20to%20create,%20whether%20it%E2%80%99s%20on%20her%20aerial%20rope,%20knitting%20socks%20or%20even%20doing%20her%20hair,%20by%20always%20asking%20herself,%20%E2%80%9CWhat%20would%20happen%20if%20%E2%80%A6?%E2%80%9D" <http://ldfi.artsdata.ca/Person> .
@@ -9195,13 +9211,11 @@ _:node16 <http://rdaregistry.info/Elements/u/P60062> "Seattle Theatre Group" <ht
 <http://ldfi.ca/data/production23> <http://ontology.artsdata.ca/audienceNote> "Contains swearing and sexual content." <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production7> <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/corporatebody10> .
 <http://ldfi.ca/data/production7> <http://rdaregistry.info/Elements/u/P60398> "équipe de tournée (2019)" <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production7> <http://rdaregistry.info/Elements/u/P60398> _:node3 <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production7> <http://rdaregistry.info/Elements/u/P60398> _:node4 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production7> <http://rdaregistry.info/Elements/u/P60398> _:node5 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production7> <http://rdaregistry.info/Elements/u/P60398> _:node6 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production7> <http://rdaregistry.info/Elements/u/P60398> _:node7 <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60398> _:node17 <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60398> _:node18 <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production7> <http://rdaregistry.info/Elements/u/P60398> _:node8 <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production7> <http://rdaregistry.info/Elements/u/P60398> _:node9 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60398> _:node19 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60398> _:node20 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60398> _:node21 <http://ldfi.artsdata.ca/PAProduction> .
@@ -9218,97 +9232,126 @@ _:node16 <http://rdaregistry.info/Elements/u/P60062> "Seattle Theatre Group" <ht
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60398> _:node32 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60398> _:node33 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60398> _:node34 <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production9> <http://rdaregistry.info/Elements/u/P60398> _:node35 <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production9> <http://rdaregistry.info/Elements/u/P60398> _:node36 <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60398> _:node35 <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60398> _:node36 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production9> <http://rdaregistry.info/Elements/u/P60398> _:node37 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production9> <http://rdaregistry.info/Elements/u/P60398> _:node38 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production9> <http://rdaregistry.info/Elements/u/P60398> _:node39 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production9> <http://rdaregistry.info/Elements/u/P60398> _:node40 <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production9> <http://rdaregistry.info/Elements/u/P60398> _:node41 <http://ldfi.artsdata.ca/PAProduction> .
-_:x16C6CD314FAnode319 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person18> .
-_:x16C6CD314FAnode320 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person19> .
-_:x16C6CD314FAnode321 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person25> .
-_:x16C6CD314FAnode322 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person26> .
-_:x16C6CD314FAnode323 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person27> .
-_:x16C6CD314FAnode333 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person50> .
-_:x16C6CD314FAnode334 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person46> .
-_:x16C6CD314FAnode335 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person66> .
-_:x16C6CD314FAnode336 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person67> .
-_:x16C6CD314FAnode337 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person68> .
-_:x16C6CD314FAnode338 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person69> .
-_:x16C6CD314FAnode339 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person69> .
-_:x16C6CD314FAnode340 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person70> .
-_:x16C6CD314FAnode341 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person70> .
-_:x16C6CD314FAnode342 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/corporatebody19> .
-_:x16C6CD314FAnode343 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person71> .
-_:x16C6CD314FAnode344 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person72> .
-_:x16C6CD314FAnode345 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person73> .
-_:x16C6CD314FAnode346 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person74> .
-_:x16C6CD314FAnode347 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person75> .
-_:x16C6CD314FAnode348 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person76> .
-_:x16C6CD314FAnode349 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person77> .
-_:x16C6CD314FAnode351 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person92> .
-_:x16C6CD314FAnode353 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person95> .
-_:x16C6CD314FAnode354 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person96> .
-_:x16C6CD314FAnode356 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person102> .
-_:x16C6CD314FAnode357 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person103> .
-_:node3 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person18> .
-_:node3 <http://rdaregistry.info/Elements/u/P60398> "Frédéric Auger" <http://ldfi.artsdata.ca/PAProduction> .
-_:node4 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person19> .
-_:node4 <http://rdaregistry.info/Elements/u/P60398> "David Blouin" <http://ldfi.artsdata.ca/PAProduction> .
-_:node5 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person25> .
-_:node5 <http://rdaregistry.info/Elements/u/P60398> "Guillaume Arseneault" <http://ldfi.artsdata.ca/PAProduction> .
-_:node6 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person26> .
-_:node6 <http://rdaregistry.info/Elements/u/P60398> "Normand Vincent" <http://ldfi.artsdata.ca/PAProduction> .
-_:node7 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person27> .
-_:node7 <http://rdaregistry.info/Elements/u/P60398> "Jean Duchesneau" <http://ldfi.artsdata.ca/PAProduction> .
-_:node17 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person50> .
-_:node17 <http://rdaregistry.info/Elements/u/P60398> "Eric Beauchesne" <http://ldfi.artsdata.ca/PAProduction> .
-_:node18 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person46> .
-_:node18 <http://rdaregistry.info/Elements/u/P60398> "Meg Roe" <http://ldfi.artsdata.ca/PAProduction> .
-_:node19 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person66> .
-_:node19 <http://rdaregistry.info/Elements/u/P60398> "Jeff Harrison" <http://ldfi.artsdata.ca/PAProduction> .
-_:node20 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person67> .
-_:node20 <http://rdaregistry.info/Elements/u/P60398> "Isaac Robinson" <http://ldfi.artsdata.ca/PAProduction> .
-_:node21 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person68> .
-_:node21 <http://rdaregistry.info/Elements/u/P60398> "Eric Chad" <http://ldfi.artsdata.ca/PAProduction> .
-_:node22 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person69> .
-_:node22 <http://rdaregistry.info/Elements/u/P60398> "Lukas McCormick" <http://ldfi.artsdata.ca/PAProduction> .
-_:node23 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person69> .
-_:node23 <http://rdaregistry.info/Elements/u/P60398> "Lukas McCormick" <http://ldfi.artsdata.ca/PAProduction> .
-_:node24 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person70> .
-_:node24 <http://rdaregistry.info/Elements/u/P60398> "Stevie Hale Jones" <http://ldfi.artsdata.ca/PAProduction> .
-_:node25 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person70> .
-_:node25 <http://rdaregistry.info/Elements/u/P60398> "Stevie Hale Jones" <http://ldfi.artsdata.ca/PAProduction> .
-_:node26 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/corporatebody19> .
-_:node26 <http://rdaregistry.info/Elements/u/P60398> "Great Northern Way Scene Shop" <http://ldfi.artsdata.ca/PAProduction> .
-_:node27 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person71> .
-_:node27 <http://rdaregistry.info/Elements/u/P60398> "Janet Dundas" <http://ldfi.artsdata.ca/PAProduction> .
-_:node28 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person72> .
-_:node28 <http://rdaregistry.info/Elements/u/P60398> "Alaia Hamer" <http://ldfi.artsdata.ca/PAProduction> .
-_:node29 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person73> .
-_:node29 <http://rdaregistry.info/Elements/u/P60398> "Megan Veaudry" <http://ldfi.artsdata.ca/PAProduction> .
-_:node30 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person74> .
-_:node30 <http://rdaregistry.info/Elements/u/P60398> "Jen Reid" <http://ldfi.artsdata.ca/PAProduction> .
-_:node31 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person75> .
-_:node31 <http://rdaregistry.info/Elements/u/P60398> "Christine Pampel" <http://ldfi.artsdata.ca/PAProduction> .
-_:node32 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person76> .
-_:node32 <http://rdaregistry.info/Elements/u/P60398> "Heidi Wilkinson" <http://ldfi.artsdata.ca/PAProduction> .
-_:node33 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person77> .
-_:node33 <http://rdaregistry.info/Elements/u/P60398> "Brent Belsher" <http://ldfi.artsdata.ca/PAProduction> .
-_:node34 <http://rdaregistry.info/Elements/u/P60398> "Francesca Piscopo" <http://ldfi.artsdata.ca/PAProduction> .
-_:node35 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person92> .
-_:node35 <http://rdaregistry.info/Elements/u/P60398> "Jeannot Painchaud" <http://ldfi.artsdata.ca/PAProduction> .
-_:node36 <http://rdaregistry.info/Elements/u/P60398> "Éloi Painchaud" <http://ldfi.artsdata.ca/PAProduction> .
-_:node37 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person95> .
-_:node37 <http://rdaregistry.info/Elements/u/P60398> "Nicolas Boivin-Gravel" <http://ldfi.artsdata.ca/PAProduction> .
-_:node38 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person96> .
-_:node38 <http://rdaregistry.info/Elements/u/P60398> "Julie Lachance" <http://ldfi.artsdata.ca/PAProduction> .
-_:node39 <http://rdaregistry.info/Elements/u/P60398> "Annie St.-Pierre" <http://ldfi.artsdata.ca/PAProduction> .
-_:node40 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person102> .
-_:node40 <http://rdaregistry.info/Elements/u/P60398> "Nadia Richer" <http://ldfi.artsdata.ca/PAProduction> .
-_:node41 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person103> .
-_:node41 <http://rdaregistry.info/Elements/u/P60398> "Camille Sabbagh-Bourret" <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production9> <http://rdaregistry.info/Elements/u/P60398> _:node42 <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production9> <http://rdaregistry.info/Elements/u/P60398> _:node43 <http://ldfi.artsdata.ca/PAProduction> .
+_:x16DF50AE3F5node3 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person18> .
+_:x16DF50AE3F5node4 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person19> .
+_:x16DF50AE3F5node5 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person25> .
+_:x16DF50AE3F5node6 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person26> .
+_:x16DF50AE3F5node7 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person27> .
+_:x16DF50AE3F5node17 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person50> .
+_:x16DF50AE3F5node18 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person46> .
+_:x16DF50AE3F5node19 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person66> .
+_:x16DF50AE3F5node20 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person67> .
+_:x16DF50AE3F5node21 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person68> .
+_:x16DF50AE3F5node22 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person69> .
+_:x16DF50AE3F5node23 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person69> .
+_:x16DF50AE3F5node24 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person70> .
+_:x16DF50AE3F5node25 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person70> .
+_:x16DF50AE3F5node26 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/corporatebody19> .
+_:x16DF50AE3F5node27 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person71> .
+_:x16DF50AE3F5node28 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person72> .
+_:x16DF50AE3F5node29 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person73> .
+_:x16DF50AE3F5node30 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person74> .
+_:x16DF50AE3F5node31 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person75> .
+_:x16DF50AE3F5node32 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person76> .
+_:x16DF50AE3F5node33 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person77> .
+_:x16DF50AE3F5node35 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person92> .
+_:x16DF50AE3F5node37 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person95> .
+_:x16DF50AE3F5node38 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person96> .
+_:x16DF50AE3F5node40 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person102> .
+_:x16DF50AE3F5node41 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person103> .
+_:x16DF50AE3F5x16C6CD314FAnode319 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person18> .
+_:x16DF50AE3F5x16C6CD314FAnode320 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person19> .
+_:x16DF50AE3F5x16C6CD314FAnode321 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person25> .
+_:x16DF50AE3F5x16C6CD314FAnode322 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person26> .
+_:x16DF50AE3F5x16C6CD314FAnode323 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person27> .
+_:x16DF50AE3F5x16C6CD314FAnode333 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person50> .
+_:x16DF50AE3F5x16C6CD314FAnode334 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person46> .
+_:x16DF50AE3F5x16C6CD314FAnode335 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person66> .
+_:x16DF50AE3F5x16C6CD314FAnode336 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person67> .
+_:x16DF50AE3F5x16C6CD314FAnode337 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person68> .
+_:x16DF50AE3F5x16C6CD314FAnode338 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person69> .
+_:x16DF50AE3F5x16C6CD314FAnode339 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person69> .
+_:x16DF50AE3F5x16C6CD314FAnode340 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person70> .
+_:x16DF50AE3F5x16C6CD314FAnode341 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person70> .
+_:x16DF50AE3F5x16C6CD314FAnode342 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/corporatebody19> .
+_:x16DF50AE3F5x16C6CD314FAnode343 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person71> .
+_:x16DF50AE3F5x16C6CD314FAnode344 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person72> .
+_:x16DF50AE3F5x16C6CD314FAnode345 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person73> .
+_:x16DF50AE3F5x16C6CD314FAnode346 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person74> .
+_:x16DF50AE3F5x16C6CD314FAnode347 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person75> .
+_:x16DF50AE3F5x16C6CD314FAnode348 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person76> .
+_:x16DF50AE3F5x16C6CD314FAnode349 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person77> .
+_:x16DF50AE3F5x16C6CD314FAnode351 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person92> .
+_:x16DF50AE3F5x16C6CD314FAnode353 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person95> .
+_:x16DF50AE3F5x16C6CD314FAnode354 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person96> .
+_:x16DF50AE3F5x16C6CD314FAnode356 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person102> .
+_:x16DF50AE3F5x16C6CD314FAnode357 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person103> .
+_:node5 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person18> .
+_:node5 <http://rdaregistry.info/Elements/u/P60398> "Frédéric Auger" <http://ldfi.artsdata.ca/PAProduction> .
+_:node6 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person19> .
+_:node6 <http://rdaregistry.info/Elements/u/P60398> "David Blouin" <http://ldfi.artsdata.ca/PAProduction> .
+_:node7 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person25> .
+_:node7 <http://rdaregistry.info/Elements/u/P60398> "Guillaume Arseneault" <http://ldfi.artsdata.ca/PAProduction> .
+_:node8 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person26> .
+_:node8 <http://rdaregistry.info/Elements/u/P60398> "Normand Vincent" <http://ldfi.artsdata.ca/PAProduction> .
+_:node9 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person27> .
+_:node9 <http://rdaregistry.info/Elements/u/P60398> "Jean Duchesneau" <http://ldfi.artsdata.ca/PAProduction> .
+_:node19 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person50> .
+_:node19 <http://rdaregistry.info/Elements/u/P60398> "Eric Beauchesne" <http://ldfi.artsdata.ca/PAProduction> .
+_:node20 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person46> .
+_:node20 <http://rdaregistry.info/Elements/u/P60398> "Meg Roe" <http://ldfi.artsdata.ca/PAProduction> .
+_:node21 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person66> .
+_:node21 <http://rdaregistry.info/Elements/u/P60398> "Jeff Harrison" <http://ldfi.artsdata.ca/PAProduction> .
+_:node22 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person67> .
+_:node22 <http://rdaregistry.info/Elements/u/P60398> "Isaac Robinson" <http://ldfi.artsdata.ca/PAProduction> .
+_:node23 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person68> .
+_:node23 <http://rdaregistry.info/Elements/u/P60398> "Eric Chad" <http://ldfi.artsdata.ca/PAProduction> .
+_:node24 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person69> .
+_:node24 <http://rdaregistry.info/Elements/u/P60398> "Lukas McCormick" <http://ldfi.artsdata.ca/PAProduction> .
+_:node25 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person69> .
+_:node25 <http://rdaregistry.info/Elements/u/P60398> "Lukas McCormick" <http://ldfi.artsdata.ca/PAProduction> .
+_:node26 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person70> .
+_:node26 <http://rdaregistry.info/Elements/u/P60398> "Stevie Hale Jones" <http://ldfi.artsdata.ca/PAProduction> .
+_:node27 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person70> .
+_:node27 <http://rdaregistry.info/Elements/u/P60398> "Stevie Hale Jones" <http://ldfi.artsdata.ca/PAProduction> .
+_:node28 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/corporatebody19> .
+_:node28 <http://rdaregistry.info/Elements/u/P60398> "Great Northern Way Scene Shop" <http://ldfi.artsdata.ca/PAProduction> .
+_:node29 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person71> .
+_:node29 <http://rdaregistry.info/Elements/u/P60398> "Janet Dundas" <http://ldfi.artsdata.ca/PAProduction> .
+_:node30 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person72> .
+_:node30 <http://rdaregistry.info/Elements/u/P60398> "Alaia Hamer" <http://ldfi.artsdata.ca/PAProduction> .
+_:node31 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person73> .
+_:node31 <http://rdaregistry.info/Elements/u/P60398> "Megan Veaudry" <http://ldfi.artsdata.ca/PAProduction> .
+_:node32 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person74> .
+_:node32 <http://rdaregistry.info/Elements/u/P60398> "Jen Reid" <http://ldfi.artsdata.ca/PAProduction> .
+_:node33 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person75> .
+_:node33 <http://rdaregistry.info/Elements/u/P60398> "Christine Pampel" <http://ldfi.artsdata.ca/PAProduction> .
+_:node34 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person76> .
+_:node34 <http://rdaregistry.info/Elements/u/P60398> "Heidi Wilkinson" <http://ldfi.artsdata.ca/PAProduction> .
+_:node35 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person77> .
+_:node35 <http://rdaregistry.info/Elements/u/P60398> "Brent Belsher" <http://ldfi.artsdata.ca/PAProduction> .
+_:node36 <http://rdaregistry.info/Elements/u/P60398> "Francesca Piscopo" <http://ldfi.artsdata.ca/PAProduction> .
+_:node37 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person92> .
+_:node37 <http://rdaregistry.info/Elements/u/P60398> "Jeannot Painchaud" <http://ldfi.artsdata.ca/PAProduction> .
+_:node38 <http://rdaregistry.info/Elements/u/P60398> "Éloi Painchaud" <http://ldfi.artsdata.ca/PAProduction> .
+_:node39 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person95> .
+_:node39 <http://rdaregistry.info/Elements/u/P60398> "Nicolas Boivin-Gravel" <http://ldfi.artsdata.ca/PAProduction> .
+_:node40 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person96> .
+_:node40 <http://rdaregistry.info/Elements/u/P60398> "Julie Lachance" <http://ldfi.artsdata.ca/PAProduction> .
+_:node41 <http://rdaregistry.info/Elements/u/P60398> "Annie St.-Pierre" <http://ldfi.artsdata.ca/PAProduction> .
+_:node42 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person102> .
+_:node42 <http://rdaregistry.info/Elements/u/P60398> "Nadia Richer" <http://ldfi.artsdata.ca/PAProduction> .
+_:node43 <http://rdaregistry.info/Elements/u/P60398> <http://ldfi.ca/data/person103> .
+_:node43 <http://rdaregistry.info/Elements/u/P60398> "Camille Sabbagh-Bourret" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60433> <http://ldfi.ca/data/person42> .
 <http://ldfi.ca/data/production8> <http://rdaregistry.info/Elements/u/P60433> "Crystal Pite" <http://ldfi.artsdata.ca/PAProduction> .
 <http://ldfi.ca/data/production9> <http://rdaregistry.info/Elements/u/P60433> <http://ldfi.ca/data/person96> .
@@ -9372,6 +9415,245 @@ _:node41 <http://rdaregistry.info/Elements/u/P60398> "Camille Sabbagh-Bourret" <
 <http://ldfi.ca/data/article1> <http://www.wikidata.org/entity/P1433> "La Presse" <http://ldfi.artsdata.ca/Work> .
 <http://ldfi.ca/data/article2> <http://www.wikidata.org/entity/P1433> <http://ldfi.ca/data/periodical8> .
 <http://ldfi.ca/data/article2> <http://www.wikidata.org/entity/P1433> "Le Manic" <http://ldfi.artsdata.ca/Work> .
+<http://ldfi.ca/data/event28> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q448372> .
+<http://ldfi.ca/data/event28> <http://www.wikidata.org/prop/direct/P131> "Niagara-on-the-Lake" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/eventseries1> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> .
+<http://ldfi.ca/data/eventseries1> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1930> .
+<http://ldfi.ca/data/eventseries1> <http://www.wikidata.org/prop/direct/P131> "Québec (Province)" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/eventseries1> <http://www.wikidata.org/prop/direct/P131> "Ottawa" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event13> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141873> .
+<http://ldfi.ca/data/event13> <http://www.wikidata.org/prop/direct/P131> "St-Hyacinthe" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event14> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q139473> .
+<http://ldfi.ca/data/event14> <http://www.wikidata.org/prop/direct/P131> "Sherbrooke" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event15> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141724> .
+<http://ldfi.ca/data/event15> <http://www.wikidata.org/prop/direct/P131> "St-Jérôme" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event16> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141760> .
+<http://ldfi.ca/data/event16> <http://www.wikidata.org/prop/direct/P131> "Joliette" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event17> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141881> .
+<http://ldfi.ca/data/event17> <http://www.wikidata.org/prop/direct/P131> "Granby" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event18> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141810> .
+<http://ldfi.ca/data/event18> <http://www.wikidata.org/prop/direct/P131> "Laval" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/eventseries2> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q340> .
+<http://ldfi.ca/data/eventseries2> <http://www.wikidata.org/prop/direct/P131> "Montreal" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event19> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2145> .
+<http://ldfi.ca/data/event19> <http://www.wikidata.org/prop/direct/P131> "Québec City" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event20> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q139104> .
+<http://ldfi.ca/data/event20> <http://www.wikidata.org/prop/direct/P131> "Brossard" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/eventseries3> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1930> .
+<http://ldfi.ca/data/eventseries3> <http://www.wikidata.org/prop/direct/P131> "Ottawa" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/eventseries4> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q172> .
+<http://ldfi.ca/data/eventseries4> <http://www.wikidata.org/prop/direct/P131> "Toronto" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/eventseries5> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/eventseries5> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event21> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141940> .
+<http://ldfi.ca/data/event21> <http://www.wikidata.org/prop/direct/P131> "Drummondville" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event22> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141873> .
+<http://ldfi.ca/data/event22> <http://www.wikidata.org/prop/direct/P131> "Saint-Hyacinthe" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event23> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q142039> .
+<http://ldfi.ca/data/event23> <http://www.wikidata.org/prop/direct/P131> "Salaberry-de-Valleyfield" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event24> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141844> .
+<http://ldfi.ca/data/event24> <http://www.wikidata.org/prop/direct/P131> "Gatineau" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/eventseries6> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1726> .
+<http://ldfi.ca/data/eventseries6> <http://www.wikidata.org/prop/direct/P131> "Munich, Germany" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/eventseries7> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q456> .
+<http://ldfi.ca/data/eventseries7> <http://www.wikidata.org/prop/direct/P131> "Lyon, France" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event26> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q456> .
+<http://ldfi.ca/data/event26> <http://www.wikidata.org/prop/direct/P131> "Lyon, France" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/eventseries8> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q130191> .
+<http://ldfi.ca/data/eventseries8> <http://www.wikidata.org/prop/direct/P131> "Norwich, United Kingdom" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/eventseries9> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q727> .
+<http://ldfi.ca/data/eventseries9> <http://www.wikidata.org/prop/direct/P131> "Amsterdam, The Netherlands" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event25> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q11803> .
+<http://ldfi.ca/data/event25> <http://www.wikidata.org/prop/direct/P131> "Peralada, Spain" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event27> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q11803> .
+<http://ldfi.ca/data/event27> <http://www.wikidata.org/prop/direct/P131> "Peralada, Spain" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/eventseries10> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q456> .
+<http://ldfi.ca/data/eventseries10> <http://www.wikidata.org/prop/direct/P131> "Lyon, France" <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/venue1> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q172> .
+<http://ldfi.ca/data/venue1> <http://www.wikidata.org/prop/direct/P131> "Toronto" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue2> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q172> .
+<http://ldfi.ca/data/venue2> <http://www.wikidata.org/prop/direct/P131> "Toronto" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue3> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2145> .
+<http://ldfi.ca/data/venue3> <http://www.wikidata.org/prop/direct/P131> "Québec City" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue4> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q172> .
+<http://ldfi.ca/data/venue4> <http://www.wikidata.org/prop/direct/P131> "Toronto" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue5> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue5> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue6> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141940> .
+<http://ldfi.ca/data/venue6> <http://www.wikidata.org/prop/direct/P131> "Drummondville" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue7> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141873> .
+<http://ldfi.ca/data/venue7> <http://www.wikidata.org/prop/direct/P131> "Saint-Hyacinthe" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue8> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q142039> .
+<http://ldfi.ca/data/venue8> <http://www.wikidata.org/prop/direct/P131> "Salaberry-de-Valleyfield" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue9> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141844> .
+<http://ldfi.ca/data/venue9> <http://www.wikidata.org/prop/direct/P131> "Gatineau" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue10> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1726> .
+<http://ldfi.ca/data/venue10> <http://www.wikidata.org/prop/direct/P131> "Munich, Germany" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue11> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q130191> .
+<http://ldfi.ca/data/venue11> <http://www.wikidata.org/prop/direct/P131> "Norwich, United Kingdom" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue12> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q727> .
+<http://ldfi.ca/data/venue12> <http://www.wikidata.org/prop/direct/P131> "Amsterdam, The Netherlands" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue14> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue14> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue15> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue15> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue16> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue16> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue17> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue17> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue22> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue22> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue18> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue18> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue19> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue19> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue20> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue20> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue21> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue21> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue23> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue23> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue24> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue24> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue25> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue25> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue26> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue26> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue27> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue27> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue28> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue28> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue29> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue29> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue30> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue30> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue32> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/venue32> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/venue33> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q340> .
+<http://ldfi.ca/data/venue33> <http://www.wikidata.org/prop/direct/P131> "Montreal" <http://ldfi.artsdata.ca/Venue> .
+<http://ldfi.ca/data/corporatebody12> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2446194> .
+<http://ldfi.ca/data/corporatebody12> <http://www.wikidata.org/prop/direct/P131> "Morris, CT, USA" <http://ldfi.artsdata.ca/CorporateBody> .
+<http://ldfi.ca/data/corporatebody13> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q90> .
+<http://ldfi.ca/data/corporatebody13> <http://www.wikidata.org/prop/direct/P131> "Paris, France" <http://ldfi.artsdata.ca/CorporateBody> .
+<http://ldfi.ca/data/corporatebody18> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/corporatebody18> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/CorporateBody> .
+<http://ldfi.ca/data/corporatebody20> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q84> .
+<http://ldfi.ca/data/corporatebody20> <http://www.wikidata.org/prop/direct/P131> "London, UK" <http://ldfi.artsdata.ca/CorporateBody> .
+<http://ldfi.ca/data/corporatebody21> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q90> .
+<http://ldfi.ca/data/corporatebody21> <http://www.wikidata.org/prop/direct/P131> "Paris, France" <http://ldfi.artsdata.ca/CorporateBody> .
+<http://ldfi.ca/data/corporatebody22> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q58337> .
+<http://ldfi.ca/data/corporatebody22> <http://www.wikidata.org/prop/direct/P131> "Banff" <http://ldfi.artsdata.ca/CorporateBody> .
+<http://ldfi.ca/data/corporatebody23> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1454> .
+<http://ldfi.ca/data/corporatebody23> <http://www.wikidata.org/prop/direct/P131> "North Carolina, US" <http://ldfi.artsdata.ca/CorporateBody> .
+<http://ldfi.ca/data/corporatebody24> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q172> .
+<http://ldfi.ca/data/corporatebody24> <http://www.wikidata.org/prop/direct/P131> "Toronto" <http://ldfi.artsdata.ca/CorporateBody> .
+<http://ldfi.ca/data/corporatebody25> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1930> .
+<http://ldfi.ca/data/corporatebody25> <http://www.wikidata.org/prop/direct/P131> "Ottawa" <http://ldfi.artsdata.ca/CorporateBody> .
+<http://ldfi.ca/data/corporatebody26> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
+<http://ldfi.ca/data/corporatebody26> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/CorporateBody> .
+<http://ldfi.ca/data/corporatebody27> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2132> .
+<http://ldfi.ca/data/corporatebody27> <http://www.wikidata.org/prop/direct/P131> "Victoria" <http://ldfi.artsdata.ca/CorporateBody> .
+<http://ldfi.ca/data/corporatebody28> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q340> .
+<http://ldfi.ca/data/corporatebody28> <http://www.wikidata.org/prop/direct/P131> "Montreal" <http://ldfi.artsdata.ca/CorporateBody> .
+<http://ldfi.ca/data/corporatebody29> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q5083> .
+<http://ldfi.ca/data/corporatebody29> <http://www.wikidata.org/prop/direct/P131> "Seattle, US" <http://ldfi.artsdata.ca/CorporateBody> .
+<http://ldfi.ca/data/corporatebody37> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q340> .
+<http://ldfi.ca/data/corporatebody37> <http://www.wikidata.org/prop/direct/P131> "Montreal" <http://ldfi.artsdata.ca/CorporateBody> .
+<http://www.wikidata.org/entity/Q448372> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1904> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q448372> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q448372> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q381896> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q176> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141873> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141873> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141873> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q931679> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141873> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1517861> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q139473> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q139473> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q139473> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1122368> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141724> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141724> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141724> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1517943> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141724> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2304022> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141760> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141760> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141760> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q692825> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141760> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1444781> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141881> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141881> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141881> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q931679> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141881> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1497865> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141810> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141810> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q340> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q340> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q340> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1474984> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q340> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2826806> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q2145> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q2145> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q2145> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q680780> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q2145> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q11832939> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q139104> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q139104> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q139104> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q931679> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q139104> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2826810> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q1930> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1904> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q1930> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q172> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1904> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q172> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q24639> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q24639> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1974> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q24639> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1061069> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141940> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141940> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141940> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q764294> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141940> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1261297> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q142039> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q142039> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q142039> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q931679> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q142039> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q813402> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141844> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141844> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q141844> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q222948> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q1726> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q183> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q1726> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q980> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q1726> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q10562> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2277> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q463> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q142> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2874> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q18914778> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q10971> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q42834> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16665897> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q18338206> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q535140> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1228610> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1232541> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q46130> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q130191> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q145> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q130191> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q21> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q130191> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q21886147> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q130191> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q48006> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q130191> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q23109> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q727> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q9899> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q727> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q29999> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q727> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q701> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q727> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q55> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q11803> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q5705> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q11803> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q29> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q11803> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q7194> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q11803> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1113384> <http://wikidata.org/imported-territories> .
+<http://www.wikidata.org/entity/Q11803> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q6904> <http://wikidata.org/imported-territories> .
+<http://ldfi.ca/data/production1> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/img2> <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production3> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/img4> <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production4> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/img3> <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production8> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/photo19> <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production8> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/photo20> <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production8> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/photo21> <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production8> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/photo22> <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/production8> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/photo23> <http://ldfi.artsdata.ca/PAProduction> .
+<http://ldfi.ca/data/event1> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/img1> <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event83> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/img72> <http://ldfi.artsdata.ca/Event> .
 <http://schema.org/AMRadioChannel> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/1004> <http://schema.org> .
 <http://schema.org/category> <http://purl.org/dc/terms/source> <https://github.com/schemaorg/schemaorg/issues/1741> <http://schema.org> .
 <http://schema.org/Accommodation> <http://purl.org/dc/terms/source> <https://www.w3.org/wiki/WebSchemas/SchemaDotOrgSources#STI_Accommodation_Ontology> <http://schema.org> .
@@ -12602,244 +12884,9 @@ _:node41 <http://rdaregistry.info/Elements/u/P60398> "Camille Sabbagh-Bourret" <
 <http://ldfi.ca/data/img69> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#instantiates> <http://ldfi.ca/data/photo67> <http://ldfi.artsdata.ca/MediaResource> .
 <http://ldfi.ca/data/img70> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#instantiates> <http://ldfi.ca/data/photo68> <http://ldfi.artsdata.ca/MediaResource> .
 <http://ldfi.ca/data/img71> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#instantiates> <http://ldfi.ca/data/photo69> <http://ldfi.artsdata.ca/MediaResource> .
+<http://ldfi.ca/data/img72> <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#instantiates> <http://ldfi.ca/data/photo70> <http://ldfi.artsdata.ca/MediaResource> .
 <http://ldfi.ca/data/corporatebody5> <http://ontology.artsdata.ca/spotifyID> "torontosymphony" <http://ldfi.artsdata.ca/CorporateBody> .
 <http://ldfi.ca/data/corporatebody32> <http://ontology.artsdata.ca/hasArtisticDirector> "Jeannot Painchaud; Émilie Émiroglou" <http://ldfi.artsdata.ca/CorporateBody> .
 <http://ldfi.ca/data/corporatebody52> <http://ontology.artsdata.ca/hasArtisticDirector> "Margo Kane" <http://ldfi.artsdata.ca/CorporateBody> .
-<http://ldfi.ca/data/event28> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q448372> .
-<http://ldfi.ca/data/event28> <http://www.wikidata.org/prop/direct/P131> "Niagara-on-the-Lake" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/eventseries1> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> .
-<http://ldfi.ca/data/eventseries1> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1930> .
-<http://ldfi.ca/data/eventseries1> <http://www.wikidata.org/prop/direct/P131> "Québec (Province)" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/eventseries1> <http://www.wikidata.org/prop/direct/P131> "Ottawa" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event13> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141873> .
-<http://ldfi.ca/data/event13> <http://www.wikidata.org/prop/direct/P131> "St-Hyacinthe" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event14> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q139473> .
-<http://ldfi.ca/data/event14> <http://www.wikidata.org/prop/direct/P131> "Sherbrooke" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event15> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141724> .
-<http://ldfi.ca/data/event15> <http://www.wikidata.org/prop/direct/P131> "St-Jérôme" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event16> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141760> .
-<http://ldfi.ca/data/event16> <http://www.wikidata.org/prop/direct/P131> "Joliette" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event17> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141881> .
-<http://ldfi.ca/data/event17> <http://www.wikidata.org/prop/direct/P131> "Granby" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event18> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141810> .
-<http://ldfi.ca/data/event18> <http://www.wikidata.org/prop/direct/P131> "Laval" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/eventseries2> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q340> .
-<http://ldfi.ca/data/eventseries2> <http://www.wikidata.org/prop/direct/P131> "Montreal" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event19> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2145> .
-<http://ldfi.ca/data/event19> <http://www.wikidata.org/prop/direct/P131> "Québec City" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event20> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q139104> .
-<http://ldfi.ca/data/event20> <http://www.wikidata.org/prop/direct/P131> "Brossard" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/eventseries3> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1930> .
-<http://ldfi.ca/data/eventseries3> <http://www.wikidata.org/prop/direct/P131> "Ottawa" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/eventseries4> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q172> .
-<http://ldfi.ca/data/eventseries4> <http://www.wikidata.org/prop/direct/P131> "Toronto" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/eventseries5> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/eventseries5> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event21> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141940> .
-<http://ldfi.ca/data/event21> <http://www.wikidata.org/prop/direct/P131> "Drummondville" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event22> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141873> .
-<http://ldfi.ca/data/event22> <http://www.wikidata.org/prop/direct/P131> "Saint-Hyacinthe" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event23> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q142039> .
-<http://ldfi.ca/data/event23> <http://www.wikidata.org/prop/direct/P131> "Salaberry-de-Valleyfield" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event24> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141844> .
-<http://ldfi.ca/data/event24> <http://www.wikidata.org/prop/direct/P131> "Gatineau" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/eventseries6> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1726> .
-<http://ldfi.ca/data/eventseries6> <http://www.wikidata.org/prop/direct/P131> "Munich, Germany" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/eventseries7> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q456> .
-<http://ldfi.ca/data/eventseries7> <http://www.wikidata.org/prop/direct/P131> "Lyon, France" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event26> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q456> .
-<http://ldfi.ca/data/event26> <http://www.wikidata.org/prop/direct/P131> "Lyon, France" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/eventseries8> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q130191> .
-<http://ldfi.ca/data/eventseries8> <http://www.wikidata.org/prop/direct/P131> "Norwich, United Kingdom" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/eventseries9> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q727> .
-<http://ldfi.ca/data/eventseries9> <http://www.wikidata.org/prop/direct/P131> "Amsterdam, The Netherlands" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event25> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q11803> .
-<http://ldfi.ca/data/event25> <http://www.wikidata.org/prop/direct/P131> "Peralada, Spain" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/event27> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q11803> .
-<http://ldfi.ca/data/event27> <http://www.wikidata.org/prop/direct/P131> "Peralada, Spain" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/eventseries10> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q456> .
-<http://ldfi.ca/data/eventseries10> <http://www.wikidata.org/prop/direct/P131> "Lyon, France" <http://ldfi.artsdata.ca/Event> .
-<http://ldfi.ca/data/venue1> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q172> .
-<http://ldfi.ca/data/venue1> <http://www.wikidata.org/prop/direct/P131> "Toronto" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue2> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q172> .
-<http://ldfi.ca/data/venue2> <http://www.wikidata.org/prop/direct/P131> "Toronto" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue3> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2145> .
-<http://ldfi.ca/data/venue3> <http://www.wikidata.org/prop/direct/P131> "Québec City" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue4> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q172> .
-<http://ldfi.ca/data/venue4> <http://www.wikidata.org/prop/direct/P131> "Toronto" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue5> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue5> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue6> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141940> .
-<http://ldfi.ca/data/venue6> <http://www.wikidata.org/prop/direct/P131> "Drummondville" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue7> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141873> .
-<http://ldfi.ca/data/venue7> <http://www.wikidata.org/prop/direct/P131> "Saint-Hyacinthe" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue8> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q142039> .
-<http://ldfi.ca/data/venue8> <http://www.wikidata.org/prop/direct/P131> "Salaberry-de-Valleyfield" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue9> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q141844> .
-<http://ldfi.ca/data/venue9> <http://www.wikidata.org/prop/direct/P131> "Gatineau" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue10> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1726> .
-<http://ldfi.ca/data/venue10> <http://www.wikidata.org/prop/direct/P131> "Munich, Germany" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue11> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q130191> .
-<http://ldfi.ca/data/venue11> <http://www.wikidata.org/prop/direct/P131> "Norwich, United Kingdom" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue12> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q727> .
-<http://ldfi.ca/data/venue12> <http://www.wikidata.org/prop/direct/P131> "Amsterdam, The Netherlands" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue14> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue14> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue15> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue15> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue16> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue16> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue17> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue17> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue22> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue22> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue18> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue18> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue19> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue19> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue20> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue20> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue21> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue21> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue23> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue23> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue24> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue24> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue25> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue25> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue26> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue26> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue27> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue27> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue28> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue28> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue29> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue29> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue30> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue30> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue32> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/venue32> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/venue33> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q340> .
-<http://ldfi.ca/data/venue33> <http://www.wikidata.org/prop/direct/P131> "Montreal" <http://ldfi.artsdata.ca/Venue> .
-<http://ldfi.ca/data/corporatebody12> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2446194> .
-<http://ldfi.ca/data/corporatebody12> <http://www.wikidata.org/prop/direct/P131> "Morris, CT, USA" <http://ldfi.artsdata.ca/CorporateBody> .
-<http://ldfi.ca/data/corporatebody13> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q90> .
-<http://ldfi.ca/data/corporatebody13> <http://www.wikidata.org/prop/direct/P131> "Paris, France" <http://ldfi.artsdata.ca/CorporateBody> .
-<http://ldfi.ca/data/corporatebody18> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/corporatebody18> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/CorporateBody> .
-<http://ldfi.ca/data/corporatebody20> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q84> .
-<http://ldfi.ca/data/corporatebody20> <http://www.wikidata.org/prop/direct/P131> "London, UK" <http://ldfi.artsdata.ca/CorporateBody> .
-<http://ldfi.ca/data/corporatebody21> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q90> .
-<http://ldfi.ca/data/corporatebody21> <http://www.wikidata.org/prop/direct/P131> "Paris, France" <http://ldfi.artsdata.ca/CorporateBody> .
-<http://ldfi.ca/data/corporatebody22> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q58337> .
-<http://ldfi.ca/data/corporatebody22> <http://www.wikidata.org/prop/direct/P131> "Banff" <http://ldfi.artsdata.ca/CorporateBody> .
-<http://ldfi.ca/data/corporatebody23> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1454> .
-<http://ldfi.ca/data/corporatebody23> <http://www.wikidata.org/prop/direct/P131> "North Carolina, US" <http://ldfi.artsdata.ca/CorporateBody> .
-<http://ldfi.ca/data/corporatebody24> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q172> .
-<http://ldfi.ca/data/corporatebody24> <http://www.wikidata.org/prop/direct/P131> "Toronto" <http://ldfi.artsdata.ca/CorporateBody> .
-<http://ldfi.ca/data/corporatebody25> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1930> .
-<http://ldfi.ca/data/corporatebody25> <http://www.wikidata.org/prop/direct/P131> "Ottawa" <http://ldfi.artsdata.ca/CorporateBody> .
-<http://ldfi.ca/data/corporatebody26> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q24639> .
-<http://ldfi.ca/data/corporatebody26> <http://www.wikidata.org/prop/direct/P131> "Vancouver" <http://ldfi.artsdata.ca/CorporateBody> .
-<http://ldfi.ca/data/corporatebody27> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2132> .
-<http://ldfi.ca/data/corporatebody27> <http://www.wikidata.org/prop/direct/P131> "Victoria" <http://ldfi.artsdata.ca/CorporateBody> .
-<http://ldfi.ca/data/corporatebody28> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q340> .
-<http://ldfi.ca/data/corporatebody28> <http://www.wikidata.org/prop/direct/P131> "Montreal" <http://ldfi.artsdata.ca/CorporateBody> .
-<http://ldfi.ca/data/corporatebody29> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q5083> .
-<http://ldfi.ca/data/corporatebody29> <http://www.wikidata.org/prop/direct/P131> "Seattle, US" <http://ldfi.artsdata.ca/CorporateBody> .
-<http://ldfi.ca/data/corporatebody37> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q340> .
-<http://ldfi.ca/data/corporatebody37> <http://www.wikidata.org/prop/direct/P131> "Montreal" <http://ldfi.artsdata.ca/CorporateBody> .
-<http://www.wikidata.org/entity/Q448372> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1904> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q448372> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q448372> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q381896> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q176> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141873> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141873> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141873> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q931679> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141873> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1517861> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q139473> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q139473> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q139473> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1122368> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141724> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141724> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141724> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1517943> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141724> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2304022> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141760> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141760> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141760> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q692825> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141760> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1444781> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141881> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141881> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141881> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q931679> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141881> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1497865> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141810> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141810> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q340> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q340> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q340> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1474984> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q340> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2826806> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q2145> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q2145> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q2145> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q680780> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q2145> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q11832939> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q139104> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q139104> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q139104> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q931679> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q139104> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2826810> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q1930> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1904> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q1930> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q172> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1904> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q172> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q24639> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q24639> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1974> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q24639> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1061069> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141940> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141940> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141940> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q764294> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141940> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1261297> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q142039> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q142039> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q142039> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q931679> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q142039> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q813402> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141844> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q176> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141844> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q141844> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q222948> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q1726> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q183> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q1726> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q980> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q1726> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q10562> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2277> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q463> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q142> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q2874> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q18914778> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q10971> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q42834> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q16665897> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q18338206> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q535140> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1228610> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1232541> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q456> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q46130> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q130191> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q145> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q130191> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q21> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q130191> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q21886147> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q130191> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q48006> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q130191> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q23109> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q727> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q9899> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q727> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q29999> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q727> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q701> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q727> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q55> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q11803> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q5705> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q11803> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q29> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q11803> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q7194> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q11803> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q1113384> <http://wikidata.org/imported-territories> .
-<http://www.wikidata.org/entity/Q11803> <http://www.wikidata.org/prop/direct/P131> <http://www.wikidata.org/entity/Q6904> <http://wikidata.org/imported-territories> .
-<http://ldfi.ca/data/production1> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/img2> <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production3> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/img4> <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production4> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/img3> <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production8> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/photo19> <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production8> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/photo20> <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production8> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/photo21> <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production8> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/photo22> <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/production8> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/photo23> <http://ldfi.artsdata.ca/PAProduction> .
-<http://ldfi.ca/data/event1> <http://ontology.artsdata.ca/hasMedia> <http://ldfi.ca/data/img1> <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/event83> <http://ontology.artsdata.ca/eventFeaturedAccessibility> <http://ldfi.ca/data/relaxedperformance1> <http://ldfi.artsdata.ca/Event> .
+<http://ldfi.ca/data/production28> <http://ontology.artsdata.ca/signLanguageVideo> "https://youtu.be/yfZoguBMfWs" <http://ldfi.artsdata.ca/PAProduction> .
